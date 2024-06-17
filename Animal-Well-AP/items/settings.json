@@ -1,0 +1,216 @@
+[
+	{
+		"name": "Goal",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_goal",
+		"stages": [
+			{
+				"name": "Goal - Egg Hunt",
+				"img": "images/settings/Egg Hunt.png",
+				"codes": "option_goal_egg_hunt",
+				"inherit_codes": false
+			},
+			{
+				"name": "Goal - Fireworks",
+				"img": "images/settings/Fireworks.png",
+				"codes": "option_goal_fireworks",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Weird Tricks",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_weird_tricks",
+		"stages": [
+			{
+				"name": "Weird Tricks - Off",
+				"img": "/images/settings/Weird Tricks.png",
+				"img_mods": "@disabled",
+				"codes": "option_weird_tricks_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Weird Tricks - On",
+				"img": "/images/settings/Weird Tricks.png",
+				"codes": "option_weird_tricks_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Bubble Jumping",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_bubble_jumping",
+		"stages": [
+			{
+				"name": "Bubble Jumping - Off",
+				"img": "images/settings/Bubble Jumping.png",
+				"img_mods": "@disabled",
+				"codes": "option_bubble_jumping_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Bubble Jumping - Exclude Long Chains",
+				"img": "images/settings/Bubble Jumping.png",
+				"codes": "option_bubble_jumping_exclude_long_chains",
+				"inherit_codes": false
+			},
+			{
+				"name": "Bubble Jumping - On",
+				"img": "images/settings/Bubble Jumping Long.png",
+				"codes": "option_bubble_jumping_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Disc Hopping",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_disc_hopping",
+		"stages": [
+			{
+				"name": "Disc Hopping - Off",
+				"img": "images/settings/Disc Hopping.png",
+				"img_mods": "@disabled",
+				"codes": "option_disc_hopping_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Disc Hopping - Single",
+				"img": "images/settings/Disc Hopping.png",
+				"codes": "option_disc_hopping_single",
+				"inherit_codes": false
+			},
+			{
+				"name": "Disc Hopping - On",
+				"img": "images/settings/Disc Hopping Long.png",
+				"codes": "option_disc_hopping_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Wheel Hopping",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_wheel_hopping",
+		"stages": [
+			{
+				"name": "Wheel Hopping - Off",
+				"img": "/images/settings/Wheel Hopping.png",
+				"img_mods": "@disabled",
+				"codes": "option_wheel_hopping_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Wheel Hopping - On",
+				"img": "/images/settings/Wheel Hopping.png",
+				"codes": "option_wheel_hopping_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Candle Checks",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_candle_checks",
+		"stages": [
+			{
+				"name": "Candle Checks - Off",
+				"img": "/images/checks/Candle_lit.png",
+				"img_mods": "@disabled",
+				"codes": "option_candle_checks_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Candle Checks - On",
+				"img": "/images/checks/Candle_lit.png",
+				"codes": "option_candle_checks_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Bunnies as Checks",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_bunnies_as_checks",
+		"stages": [
+			{
+				"name": "Bunnies as Checks - Off",
+				"img": "/images/checks/Bunny_collected.png",
+				"codes": "option_bunnies_as_checks_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Bunnies as Checks - Exclude Tedious",
+				"img": "/images/checks/Bunny_uncollected.png",
+				"codes": "option_bunnies_as_checks_exclude_tedious",
+				"inherit_codes": false
+			},
+			{
+				"name": "Bunnies as Checks - On",
+				"img": "/images/settings/All Bunnies.png",
+				"codes": "option_bunnies_as_checks_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Matchbox",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_matchbox",
+		"stages": [
+			{
+				"name": "Matchbox - Off",
+				"img": "/images/items/Match.png",
+				"img_mods": "@disabled",
+				"codes": "option_matchbox_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Matchbox - On",
+				"img": "/images/items/Match.png",
+				"codes": "option_matchbox_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Key Ring",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_key_ring",
+		"stages": [
+			{
+				"name": "Key Ring - Off",
+				"img": "/images/items/Key.png",
+				"img_mods": "@disabled",
+				"codes": "option_key_ring_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Key Ring - On",
+				"img": "/images/items/Key.png",
+				"codes": "option_key_ring_on",
+				"inherit_codes": false
+			}
+		]
+	},
+]
