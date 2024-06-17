@@ -224,6 +224,10 @@ function b_ball_chest()
 	return kangaroo_room()
 end
 
+function b_wand_chest()
+	return fish_wand_pit()
+end
+
 function bb_wand_chest()
 	return hippo_skull_room()
 end
