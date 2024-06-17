@@ -36,7 +36,7 @@ LOCATION_MAPPING = {
 	[00027] = {"@Key Chests/Key Chest in East Frog Guard Room/"},
 	[00028] = {"@Key Chests/Key Chest in Dog with Chinchilla Crank/"},
 	[00029] = {"@Key Chests/House Key/"},
-	[00030] = {"@Key Chests/Office Key Chest/UL D R D UL D R D\nUL DL DR DL UL DL DR DL\nUR L D L UR L D L \nU L DR L U L DR L\nUL D R D UL D R D\nUL DL DR DL UL DL DR DL\nUL UR UL DL UR U L D\nU UL DL L U UL L UL"},
+	[00030] = {"@Key Chests/Office Key Chest/"},
 	
 	[00031] = {"@Golden Chests/E. Medal Chest/"},
 	[00032] = {"@Golden Chests/S. Medal Chest/"},
@@ -123,19 +123,19 @@ LOCATION_MAPPING = {
 	[00105] = {"@Golden Chests/Pencil Chest/"},
 	
 	[00106] = {"@Secret Bunnies/Community Bunny/"},
-	[00107] = {"@Secret Bunnies/Chinchilla Bunny/R UR R D R DL DL R"},
+	[00107] = {"@Secret Bunnies/Chinchilla Bunny/"},
 	[00108] = {"@Secret Bunnies/Water Spike Bunny/"},
-	[00109] = {"@Secret Bunnies/Doodle Bunny/UL U DR D DL D L D"},
+	[00109] = {"@Secret Bunnies/Doodle Bunny/"},
 	[00110] = {"@Secret Bunnies/Invisible Bunny/"},
-	[00111] = {"@Secret Bunnies/Fish Bunny/L L DR R UR L L UR"},
-	[00112] = {"@Secret Bunnies/Evil Bunny/R DR D DL L UL U UR"},
+	[00111] = {"@Secret Bunnies/Fish Bunny/"},
+	[00112] = {"@Secret Bunnies/Evil Bunny/"},
 	[00113] = {"@Secret Bunnies/Singing Bunny/"},
-	[00114] = {"@Secret Bunnies/Green Bunny/U D U D L R L R"},
+	[00114] = {"@Secret Bunnies/Green Bunny/"},
 	[00115] = {"@Secret Bunnies/Imaginary Bunny/"},
-	[00116] = {"@Secret Bunnies/Flowering Bunny/R D L U R D UL UR R D L U DR DL UL UR"},
+	[00116] = {"@Secret Bunnies/Flowering Bunny/"},
 	[00117] = {"@Secret Bunnies/Lava Bunny/"},
-	[00118] = {"@Secret Bunnies/Flashing Bunny/UR UL DL DR U L D R"},
-	[00119] = {"@Secret Bunnies/Paper Bunny/R UR U L UL U L D"},
+	[00118] = {"@Secret Bunnies/Flashing Bunny/"},
+	[00119] = {"@Secret Bunnies/Paper Bunny/"},
 	[00120] = {"@Secret Bunnies/Ghost Bunny/"},
 	[00121] = {"@Secret Bunnies/Disc Spike Bunny/"},
 	
@@ -149,5 +149,5 @@ LOCATION_MAPPING = {
 	[00129] = {"@Candles/Frog Switch Candle Carousel/"},
 	[00130] = {"@Candles/Bear Candle in Dark Maze/"},
 	
-	[00131] = {"@Item Chests/Mamma Cha Chest/R UR U L UL U L D"},
+	[00131] = {"@Item Chests/Mama Cha Chest/"},
 }
