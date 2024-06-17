@@ -1,0 +1,34 @@
+{
+	"settings_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"rows": [
+							[
+								"option_goal", "option_weird_tricks"
+							],
+							[
+								"option_candle_checks", "option_bunnies_as_checks"
+							],
+							[
+								"option_key_ring", "option_matchbox"
+							],
+							[
+								"option_bubble_jumping", "option_disc_hopping", "option_wheel_hopping"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"shared_item_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"rows": [
+							[
+								"firecrackers",
+								"animalflute",
+								"lantern",
+								"top",
+								"kshard0",
+								"blue_flame"
+							],
+							[
+								"disc",
+								"bwand",
+								"yoyo",
+								"slink",
+								"smedal",
+								"pink_flame"
+							],
+							[
+								"remote",
+								"bball",
+								"wheel",
+								"uvlantern",
+								"emedal",
+								"violet_flame"
+							],
+							[
+								"egg",
+								"key",
+								"match",
+								"housekey",
+								"officekey",
+								"green_flame"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"name": "map",
+		"location_size": 12,
+		"location_border_thickness": 4,
+		"img": "images/maps/Map.png"
+	},
+	{
+		"name": "warpSongs",
+		"location_size": 12,
+		"location_border_thickness": 4,
+		"img": "images/maps/Warp Songs.png"
+	},
+	{
+		"name": "triggerSongs",
+		"location_size": 12,
+		"location_border_thickness": 4,
+		"img": "images/maps/Trigger Songs.png"
+	},
+	{
+		"name": "bunnyMural",
+		"location_size": 12,
+		"location_border_thickness": 4,
+		"img": "images/maps/Bunny Mural.png"
+	}
+]

@@ -1,0 +1,2876 @@
+[
+	{
+		"name": "Secret Bunnies",
+		"children": [
+			{
+				"name": "Community Bunny",
+				"access_rules": [
+					"$bunny_mural"
+				],
+				"visibility_rules": [
+					"$has|option_bunnies_as_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1988,
+						"y": 692
+					}
+				]
+			},
+			{
+				"name": "Chinchilla Bunny",
+				"access_rules": [
+					"$bunny_chinchilla_vine"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 20,
+						"y": 464
+					}
+				]
+			},
+			{
+				"name": "Disc Spike Bunny",
+				"access_rules": [
+					"$bunny_disc_spike"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 8,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Doodle Bunny",
+				"access_rules": [
+					"$bunny_map"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1848,
+						"y": 252
+					}
+				]
+			},
+			{
+				"name": "Evil Bunny",
+				"access_rules": [
+					"$bunny_face"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 904,
+						"y": 924
+					}
+				]
+			},
+			{
+				"name": "Fish Bunny",
+				"access_rules": [
+					"$bunny_fish"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 996,
+						"y": 720
+					}
+				]
+			},
+			{
+				"name": "Flashing Bunny",
+				"access_rules": [
+					"$bunny_tv"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 998,
+						"y": 1388
+					}
+				]
+			},
+			{
+				"name": "Flowering Bunny",
+				"access_rules": [
+					"$bunny_file_bud"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 652,
+						"y": 808
+					}
+				]
+			},
+			{
+				"name": "Ghost Bunny",
+				"access_rules": [
+					"$bunny_ghost_dog"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2068,
+						"y": 284
+					}
+				]
+			},
+			{
+				"name": "Green Bunny",
+				"access_rules": [
+					"$bunny_duck"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1712,
+						"y": 684
+					}
+				]
+			},
+			{
+				"name": "Imaginary Bunny",
+				"access_rules": [
+					"$bunny_dream"
+				],
+				"visibility_rules": [
+					"$has|option_bunnies_as_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 882,
+						"y": 1016
+					}
+				]
+			},
+			{
+				"name": "Invisible Bunny",
+				"access_rules": [
+					"$bunny_uv"
+				],
+				"visibility_rules": [
+					"$has|option_bunnies_as_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1520,
+						"y": 676
+					}
+				]
+			},
+			{
+				"name": "Lava Bunny",
+				"access_rules": [
+					"$bunny_lava"
+				],
+				"visibility_rules": [
+					"$has|option_bunnies_as_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 812,
+						"y": 238
+					}
+				]
+			},
+			{
+				"name": "Paper Bunny",
+				"access_rules": [
+					"$bunny_barcode"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 768,
+						"y": 252
+					},
+					{
+						"map": "map",
+						"x": 1032,
+						"y": 1340
+					}
+				]
+			},
+			{
+				"name": "Singing Bunny",
+				"access_rules": [
+					"$bunny_crow"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2100,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Water Spike Bunny",
+				"access_rules": [
+					"$bunny_water_spike"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1304,
+						"y": 732
+					}
+				]
+			},
+			{
+				"name": "Impossible Bunny (Ghost Mouse)",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1972,
+						"y": 712
+					}
+				]
+			},
+			{
+				"name": "Impossible Bunny (Spike Tunnel)",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1742,
+						"y": 1036
+					}
+				]
+			},
+			{
+				"name": "Impossible Bunny (Well Teleport)",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1574,
+						"y": 340
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Egg Chests",
+		"children": [
+			{
+				"name": "Ancient Egg Chest",
+				"access_rules": [
+					"$egg_ancient"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 110,
+						"y": 540
+					}
+				]
+			},
+			{
+				"name": "Big Egg Chest",
+				"access_rules": [
+					"$egg_big"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1484,
+						"y": 52
+					}
+				]
+			},
+			{
+				"name": "Brick Egg Chest",
+				"access_rules": [
+					"$egg_brick"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 718,
+						"y": 1104
+					}
+				]
+			},
+			{
+				"name": "Brown Egg Chest",
+				"access_rules": [
+					"$egg_brown"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 384,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Bubble Egg Chest",
+				"access_rules": [
+					"$egg_bubble"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2228,
+						"y": 888
+					}
+				]
+			},
+			{
+				"name": "Chaos Egg Chest",
+				"access_rules": [
+					"$egg_chaos"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2516,
+						"y": 244
+					}
+				]
+			},
+			{
+				"name": "Chocolate Egg Chest",
+				"access_rules": [
+					"$egg_chocolate"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1558,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "Clover Egg Chest",
+				"access_rules": [
+					"$egg_clover"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 696,
+						"y": 1032
+					}
+				]
+			},
+			{
+				"name": "Crystal Egg Chest",
+				"access_rules": [
+					"$egg_crystal"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 608,
+						"y": 1396
+					}
+				]
+			},
+			{
+				"name": "Dazzle Egg Chest",
+				"access_rules": [
+					"$egg_dazzle"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 328,
+						"y": 624
+					}
+				]
+			},
+			{
+				"name": "Depraved Egg Chest",
+				"access_rules": [
+					"$egg_depraved"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1096,
+						"y": 240
+					}
+				]
+			},
+			{
+				"name": "Desert Egg Chest",
+				"access_rules": [
+					"$egg_desert"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2550,
+						"y": 954
+					}
+				]
+			},
+			{
+				"name": "Dream Egg Chest",
+				"access_rules": [
+					"$egg_dream"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1864,
+						"y": 824
+					}
+				]
+			},
+			{
+				"name": "Egg As A Service Chest",
+				"access_rules": [
+					"$egg_service"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 308,
+						"y": 236
+					}
+				]
+			},
+			{
+				"name": "Evil Egg Chest",
+				"access_rules": [
+					"$egg_evil"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 816,
+						"y": 324
+					}
+				]
+			},
+			{
+				"name": "Fire Egg Chest",
+				"access_rules": [
+					"$egg_fire"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1628,
+						"y": 936
+					}
+				]
+			},
+			{
+				"name": "Forbidden Egg Chest",
+				"access_rules": [
+					"$egg_forbidden"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 20,
+						"y": 124
+					}
+				]
+			},
+			{
+				"name": "Friendship Egg Chest",
+				"access_rules": [
+					"$egg_friendship"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 288,
+						"y": 456
+					}
+				]
+			},
+			{
+				"name": "Future Egg Chest",
+				"access_rules": [
+					"$egg_future"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 62,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Galaxy Egg Chest",
+				"access_rules": [
+					"$egg_galaxy"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 100,
+						"y": 812
+					}
+				]
+			},
+			{
+				"name": "Golden Egg Chest",
+				"access_rules": [
+					"$egg_golden"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1748,
+						"y": 1368
+					}
+				]
+			},
+			{
+				"name": "Goodnight Egg Chest",
+				"access_rules": [
+					"$egg_goodnight"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 580,
+						"y": 848
+					}
+				]
+			},
+			{
+				"name": "Gorgeous Egg Chest",
+				"access_rules": [
+					"$egg_gorgeous"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1412,
+						"y": 780
+					}
+				]
+			},
+			{
+				"name": "Great Egg Chest",
+				"access_rules": [
+					"$egg_great"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1082,
+						"y": 772
+					}
+				]
+			},
+			{
+				"name": "Holiday Egg Chest",
+				"access_rules": [
+					"$egg_holiday"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1348,
+						"y": 588
+					}
+				]
+			},
+			{
+				"name": "Ice Egg Chest",
+				"access_rules": [
+					"$egg_ice"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1256,
+						"y": 912
+					}
+				]
+			},
+			{
+				"name": "Iridescent Egg Chest",
+				"access_rules": [
+					"$egg_iridescent"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1132,
+						"y": 1064
+					}
+				]
+			},
+			{
+				"name": "Jade Egg Chest",
+				"access_rules": [
+					"$egg_jade"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2220,
+						"y": 1208
+					}
+				]
+			},
+			{
+				"name": "Laissez-faire Egg Chest",
+				"access_rules": [
+					"$egg_lf"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2004,
+						"y": 428
+					}
+				]
+			},
+			{
+				"name": "Magic Egg Chest",
+				"access_rules": [
+					"$egg_magic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 228,
+						"y": 600
+					}
+				]
+			},
+			{
+				"name": "Moon Egg Chest",
+				"access_rules": [
+					"$egg_moon"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2540,
+						"y": 732
+					}
+				]
+			},
+			{
+				"name": "Mystic Egg Chest",
+				"access_rules": [
+					"$egg_mystic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 780,
+						"y": 592
+					}
+				]
+			},
+			{
+				"name": "Neon Egg Chest",
+				"access_rules": [
+					"$egg_neon"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 831,
+						"y": 1064
+					}
+				]
+			},
+			{
+				"name": "Normal Egg Chest",
+				"access_rules": [
+					"$egg_normal"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 626,
+						"y": 760
+					}
+				]
+			},
+			{
+				"name": "Obsidian Egg Chest",
+				"access_rules": [
+					"$egg_obsidian"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2260,
+						"y": 1192
+					}
+				]
+			},
+			{
+				"name": "Orange Egg Chest",
+				"access_rules": [
+					"$egg_orange"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 890,
+						"y": 428
+					}
+				]
+			},
+			{
+				"name": "Pickled Egg Chest",
+				"access_rules": [
+					"$egg_pickled"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1552,
+						"y": 38
+					}
+				]
+			},
+			{
+				"name": "Planet Egg Chest",
+				"access_rules": [
+					"$egg_planet"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2062,
+						"y": 782
+					}
+				]
+			},
+			{
+				"name": "Plant Egg Chest",
+				"access_rules": [
+					"$egg_plant"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 120,
+						"y": 412
+					}
+				]
+			},
+			{
+				"name": "Post Modern Egg Chest",
+				"access_rules": [
+					"$egg_post_modern"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1580,
+						"y": 428
+					}
+				]
+			},
+			{
+				"name": "Promise Egg Chest",
+				"access_rules": [
+					"$egg_promise"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2598,
+						"y": 800
+					}
+				]
+			},
+			{
+				"name": "Rain Egg Chest",
+				"access_rules": [
+					"$egg_rain"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1316,
+						"y": 604
+					}
+				]
+			},
+			{
+				"name": "Raw Egg Chest",
+				"access_rules": [
+					"$egg_raw"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 800,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Razzle Egg Chest",
+				"access_rules": [
+					"$egg_razzle"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2156,
+						"y": 544
+					}
+				]
+			},
+			{
+				"name": "Red Egg Chest",
+				"access_rules": [
+					"$egg_red"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 296,
+						"y": 416
+					}
+				]
+			},
+			{
+				"name": "Reference Egg Chest",
+				"access_rules": [
+					"$egg_reference"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 248,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Ruby Egg Chest",
+				"access_rules": [
+					"$egg_ruby"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2036,
+						"y": 1164
+					}
+				]
+			},
+			{
+				"name": "Rust Egg Chest",
+				"access_rules": [
+					"$egg_rust"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1932,
+						"y": 1132
+					}
+				]
+			},
+			{
+				"name": "Sapphire Egg Chest",
+				"access_rules": [
+					"$egg_sapphire"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1904,
+						"y": 1160
+					}
+				]
+			},
+			{
+				"name": "Scarlet Egg Chest",
+				"access_rules": [
+					"$egg_scarlet"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2504,
+						"y": 1132
+					}
+				]
+			},
+			{
+				"name": "Shadow Egg Chest",
+				"access_rules": [
+					"$egg_shadow"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2472,
+						"y": 108
+					}
+				]
+			},
+			{
+				"name": "Sour Egg Chest",
+				"access_rules": [
+					"$egg_sour"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1304,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Sunset Egg Chest",
+				"access_rules": [
+					"$egg_sunset"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 226,
+						"y": 800
+					}
+				]
+			},
+			{
+				"name": "Swan Egg Chest",
+				"access_rules": [
+					"$egg_swan"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1968,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Sweet Egg Chest",
+				"access_rules": [
+					"$egg_sweet"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1404,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Transcendental Egg Chest",
+				"access_rules": [
+					"$egg_transcendental"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1792,
+						"y": 484
+					}
+				]
+			},
+			{
+				"name": "Travel Egg Chest",
+				"access_rules": [
+					"$egg_travel"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1956,
+						"y": 808
+					}
+				]
+			},
+			{
+				"name": "Truth Egg Chest",
+				"access_rules": [
+					"$egg_truth"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1660,
+						"y": 444
+					}
+				]
+			},
+			{
+				"name": "Universal Basic Egg Chest",
+				"access_rules": [
+					"$egg_universal"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2040,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "Upside Down Egg Chest",
+				"access_rules": [
+					"$egg_upside_down"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 464,
+						"y": 344
+					}
+				]
+			},
+			{
+				"name": "Value Egg Chest",
+				"access_rules": [
+					"$egg_value"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2410,
+						"y": 338
+					}
+				]
+			},
+			{
+				"name": "Vanity Egg Chest",
+				"access_rules": [
+					"$egg_vanity"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 20,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Virtual Egg Chest",
+				"access_rules": [
+					"$egg_virtual"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1184,
+						"y": 632
+					}
+				]
+			},
+			{
+				"name": "Zen Egg Chest",
+				"access_rules": [
+					"$egg_zen"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2144,
+						"y": 356
+					}
+				]
+			},
+			{
+				"name": "65th Egg Chest",
+				"access_rules": [
+					"$egg_65"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1056,
+						"y": 548
+					}
+				]
+			},
+		]
+	},
+	{
+		"name": "Golden Chests",
+		"children": [
+			{
+				"name": "Animal Flute Chest",
+				"access_rules": [
+					"$flute_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 844,
+						"y": 548
+					}
+				]
+			},
+			{
+				"name": "B. Ball Chest",
+				"access_rules": [
+					"$b_ball_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 89,
+						"y": 324
+					}
+				]
+			},
+			{
+				"name": "B. Wand Chest",
+				"access_rules": [
+					"$b_wand_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 236,
+						"y": 860
+					}
+				]
+			},
+			{
+				"name": "B.B. Wand Chest",
+				"access_rules": [
+					"$bb_wand_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 660,
+						"y": 1250
+					}
+				]
+			},
+			{
+				"name": "Disc",
+				"access_rules": [
+					"$disc_spot"
+				],
+				"sections": [
+					{	
+						"hosted_item": "disc"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1042,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "E. Medal Chest",
+				"access_rules": [
+					"$medal_e"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 664,
+						"y": 1204
+					}
+				]
+			},
+			{
+				"name": "F. Pack Chest",
+				"access_rules": [
+					"$fanny_pack_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1108,
+						"y": 1388
+					}
+				]
+			},
+			{
+				"name": "Lantern Chest",
+				"access_rules": [
+					"$lantern_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1468,
+						"y": 944
+					}
+				]
+			},
+			{
+				"name": "Map Chest",
+				"access_rules": [
+					"$map_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1478,
+						"y": 744
+					}
+				]
+			},
+			{
+				"name": "Mock Disc Chest",
+				"access_rules": [
+					"$mock_disc_chest"
+				],
+				"visibility_rules": [
+					""
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1046,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Pencil Chest",
+				"access_rules": [
+					"$pencil_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1080,
+						"y": 576
+					}
+				]
+			},
+			{
+				"name": "Remote Chest",
+				"access_rules": [
+					"$remote_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 984,
+						"y": 1120
+					}
+				]
+			},
+			{
+				"name": "S. Medal Chest",
+				"access_rules": [
+					"$medal_s"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1901,
+						"y": 468
+					}
+				]
+			},
+			{
+				"name": "Slink Chest",
+				"access_rules": [
+					"$slink_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1833,
+						"y": 364
+					}
+				]
+			},
+			{
+				"name": "Stamp Chest",
+				"access_rules": [
+					"$stamp_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1256,
+						"y": 600
+					}
+				]
+			},
+			{
+				"name": "Top Chest",
+				"access_rules": [
+					"$top_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1096,
+						"y": 556
+					}
+				]
+			},
+			{
+				"name": "UV Lantern Chest",
+				"access_rules": [
+					"$uv_lantern_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 28,
+						"y": 1356
+					}
+				]
+			},
+			{
+				"name": "Wheel Chest",
+				"access_rules": [
+					"$wheel_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 81,
+						"y": 1004
+					}
+				]
+			},
+			{
+				"name": "Yoyo Chest",
+				"access_rules": [
+					"$yoyo_chest"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Golden Chest_closed.png",
+						"chest_opened_img": "images/checks/Golden Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2014,
+						"y": 1260
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Flames",
+		"children": [
+			{
+				"name": "B. Flame",
+				"access_rules": [
+					"$flame_blue"
+				],
+				"sections": [
+					{
+						"hosted_item": "blue_flame"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 238,
+						"y": 1196
+					}
+				]
+			},
+			{
+				"name": "G. Flame",
+				"access_rules": [
+					"$flame_green"
+				],
+				"sections": [
+					{
+						"hosted_item": "green_flame"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2482,
+						"y": 1376
+					}
+				]
+			},
+			{
+				"name": "P. Flame",
+				"access_rules": [
+					"$flame_pink"
+				],
+				"sections": [
+					{
+						"hosted_item": "pink_flame"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1359,
+						"y": 144
+					}
+				]
+			},
+			{
+				"name": "V. Flame",
+				"access_rules": [
+					"$flame_violet"
+				],
+				"sections": [
+					{
+						"hosted_item": "violet_flame"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1677,
+						"y": 136
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Candles",
+		"children": [
+			{
+				"name": "Bear Candle in Dark Maze",
+				"access_rules": [
+					"$candle_bear"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2152,
+						"y": 468
+					}
+				]
+			},
+			{
+				"name": "Dog Boxed Candle",
+				"access_rules": [
+					"$candle_dog_switch_box"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 725,
+						"y": 298
+					}
+				]
+			},
+			{
+				"name": "Dog Candle in Bat Room",
+				"access_rules": [
+					"$candle_dog_bat"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 402,
+						"y": 244
+					}
+				]
+			},
+			{
+				"name": "Dog Candle in Disc Switch Maze",
+				"access_rules": [
+					"$candle_dog_disc_switches"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1096,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Dog Candle in Many Switches Room",
+				"access_rules": [
+					"$candle_dog_many_switches"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 332,
+						"y": 344
+					}
+				]
+			},
+			{
+				"name": "Dog Dark Room Candle",
+				"access_rules": [
+					"$candle_dog_dark"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 744,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "Fish Candle in Penguin Room",
+				"access_rules": [
+					"$candle_fish"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 618,
+						"y": 872
+					}
+				]
+			},
+			{
+				"name": "Frog Switch Candle Carousel",
+				"access_rules": [
+					"$candle_frog"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2315,
+						"y": 848
+					}
+				]
+			},
+			{
+				"name": "Squirrel First Candle",
+				"access_rules": [
+					"$candle_first"
+				],
+				"visibility_rules_rules": [
+					"$has|option_candle_checks_on"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Candle_unlit.png",
+						"chest_opened_img": "images/checks/Candle_lit.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1392,
+						"y": 804
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Key Chests",
+		"children": [
+			{
+				"name": "Key Chest by Mouse Head Hitting Lever",
+				"access_rules": [
+					"$key_chest_mouse_head_lever"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1904,
+						"y": 736
+					}
+				]
+			},
+			{
+				"name": "Key Chest in Dog with Chinchilla Crank",
+				"access_rules": [
+					"$key_dog"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 172,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Key Chest in East Frog Guard Room",
+				"access_rules": [
+					"$key_frog_guard_room_east"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2092,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Key Chest in Lower Bear",
+				"access_rules": [
+					"$key_bear_lower"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2466,
+						"y": 564
+					}
+				]
+			},
+			{
+				"name": "Key Chest in Upper Bear",
+				"access_rules": [
+					"$key_bear_upper"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2128,
+						"y": 368
+					}
+				]
+			},
+			{
+				"name": "Key Chest in West Frog Guard Room",
+				"access_rules": [
+					"$key_frog_guard_room_west"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1830,
+						"y": 1002
+					}
+				]
+			},
+			{
+				"name": "House Key",
+				"access_rules": [
+					"$key_house"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 876,
+						"y": 1376
+					}
+				]
+			},
+			{
+				"name": "Office Key Chest",
+				"access_rules": [
+					"$key_office"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1312,
+						"y": 516
+					}
+				]
+			},
+		]
+	},
+	{
+		"name": "Match Chests",
+		"children": [
+			{
+				"name": "Match Above Egg Room",
+				"access_rules": [
+					"$match_above_egg_room"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1360,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "Match by Dog Fish Pipe Chest",
+				"access_rules": [
+					"$match_dog_upper"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1368,
+						"y": 285
+					}
+				]
+			},
+			{
+				"name": "Match in Bear Area",
+				"access_rules": [
+					"$match_bear"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1772,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "Match in Center Well Chest",
+				"access_rules": [
+					"$match_center_well"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1490,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "Match in Fish Mural Room Chest",
+				"access_rules": [
+					"$match_fish_mural"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1028,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Match in Guard Room Chest",
+				"access_rules": [
+					"$match_guard_room"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1740,
+						"y": 988
+					}
+				]
+			},
+			{
+				"name": "Match in Switch-Bounce Room Chest",
+				"access_rules": [
+					"$match_dog_switch_bounce"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 984,
+						"y": 240
+					}
+				]
+			},
+			{
+				"name": "Match in Tutorial Chest",
+				"access_rules": [
+					"$match_start_ceiling"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 820,
+						"y": 812
+					}
+				]
+			},
+			{
+				"name": "Match under Mouse Statue",
+				"access_rules": [
+					"$match_under_mouse_statue"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2036,
+						"y": 748
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Item Chests",
+		"children": [
+			{
+				"name": "Cheater's Ring Chest",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 172,
+						"y": 508
+					}
+				]
+			},
+			{
+				"name": "Mama Cha Chest",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1,
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 684,
+						"y": 252
+					}
+				]
+			},
+			{
+				"name": "Souvenir Cup Chest",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 660,
+						"y": 1302
+					}
+				]
+			},
+			{
+				"name": "Stopwatch",
+				"access_rules": [
+					""
+				],
+				"visibility_rules": [
+					"$not_in_logic"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
+						"chest_opened_img": "images/checks/Blue Chest_open.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1128,
+						"y": 1392
+					}
+				]
+			}
+		]
+	}
+]
