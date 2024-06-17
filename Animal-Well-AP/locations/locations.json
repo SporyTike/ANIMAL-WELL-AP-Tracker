@@ -38,7 +38,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "R UR R D R DL DL R"
 					}
 				],
 				"map_locations": [
@@ -85,7 +84,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "UL U DR D DL D L D"
 					}
 				],
 				"map_locations": [
@@ -109,7 +107,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "R DR D DL L UL U UR"
 					}
 				],
 				"map_locations": [
@@ -133,7 +130,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "L L DR R UR L L UR"
 					}
 				],
 				"map_locations": [
@@ -157,7 +153,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "UR UL DL DR U L D R"
 					}
 				],
 				"map_locations": [
@@ -181,7 +176,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "R D L U R D UL UR R D L U DR DL UL UR"
 					}
 				],
 				"map_locations": [
@@ -205,7 +199,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": ""
 					}
 				],
 				"map_locations": [
@@ -229,7 +222,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "U D U D L R L R"
 					}
 				],
 				"map_locations": [
@@ -322,7 +314,6 @@
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
 						"item_count": 1,
-						"name": "R UR U L UL U L D"
 					}
 				],
 				"map_locations": [
@@ -2813,7 +2804,7 @@
 				]
 			},
 			{
-				"name": "Mamma Cha Chest",
+				"name": "Mama Cha Chest",
 				"access_rules": [
 					""
 				],
@@ -2825,7 +2816,6 @@
 						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
 						"chest_opened_img": "images/checks/Blue Chest_open.png",
 						"item_count": 1,
-						"name": "R UR U L UL U L D"
 					}
 				],
 				"map_locations": [
