@@ -2579,7 +2579,6 @@
 						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
 						"chest_opened_img": "images/checks/Blue Chest_open.png",
 						"item_count": 1,
-						"name": "UL D R D UL D R D\nUL DL DR DL UL DL DR DL\nUR L D L UR L D L \nU L DR L U L DR L\nUL D R D UL D R D\nUL DL DR DL UL DL DR DL\nUL UR UL DL UR U L D\nU UL DL L U UL L UL"
 					}
 				],
 				"map_locations": [
