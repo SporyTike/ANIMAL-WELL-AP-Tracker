@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.2",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.2",
+			"sha256": "0293fb3264685987fafc8ad703aa0568a458ae819843323f4b2a262cead0b317",
+			"changelog": ["Speedup Tracker performance with new logic", "Fix note for the Paper Bunny", "Added auto-update support", "Updated Readme file"]
+		},
+		{
 			"package_version": "0.9.1b",
 			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.1b",
 			"sha256": "1b9218a4b43b3e140ad0d819b9d5007e7acad9f852cb57b20635f484373df829",
