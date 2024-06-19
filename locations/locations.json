@@ -1314,7 +1314,7 @@
 				"map_locations": [
 					{
 						"map": "map",
-						"x": 2598,
+						"x": 2544,
 						"y": 800
 					}
 				]
@@ -2452,7 +2452,7 @@
 			{
 				"name": "Dog Candle in Many Switches Room",
 				"access_rules": [
-					"@Bat Room"
+					"@Bat Room, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on, $can_use_matches"
