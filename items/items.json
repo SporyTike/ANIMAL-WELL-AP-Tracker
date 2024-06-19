@@ -46,14 +46,14 @@
 			{
 				"img": "images/items/Mock Disc.png",
 				"codes": "mdisc",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"name": "Mock Disc"
 			},
 			{
 				"name": "Disc",
 				"img": "images/items/Disc.png",
 				"codes": "disc",
-				"inherit_codes": false,
+				"inherit_codes": true,
 			}
 		]
 	},

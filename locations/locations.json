@@ -2303,9 +2303,9 @@
 			{
 				"name": "P. Flame",
 				"access_rules": [
-					"@Map Chest, @Dog Fast Travel, $has|mdisc, $has|slink, $can_open_flame",
-					"@Map Chest, @Dog Fast Travel, $has|mdisc, $wheel_hop, $can_open_flame",
-					"@Map Chest, @Dog Fast Travel, $has|mdisc, $has|top, $can_open_flame, $has|option_weird_tricks_on"
+					"@Map Chest, @Dog Fast Travel, $has|disc, $has|slink, $can_open_flame",
+					"@Map Chest, @Dog Fast Travel, $has|disc, $wheel_hop, $can_open_flame",
+					"@Map Chest, @Dog Fast Travel, $has|disc, $has|top, $can_open_flame, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -3153,7 +3153,7 @@
 			{
 				"name": "Well Entry",
 				"access_rules": [
-					"@B. Flame, @G. Flame, @P. Flame, @V.Flame"
+					"@B. Flame, @G. Flame, @P. Flame, @V. Flame"
 				]
 			},
 			{

@@ -90,9 +90,9 @@ function bunny_warp()
 	return has("animalflute")
 end
 
-function activated_bear_fast_travel()
-	return bear_middle_phone_room()
-		and has("animalflute")
+function can_scare_hedgehog()
+	return has("animalflute")
+		or has("firecrackers")
 end
 
 function not_in_logic()
