@@ -2725,8 +2725,8 @@
 				"name": "Office Key Chest",
 				"access_rules": [
 					"@Map Chest, $has|animalflute, $bubble_short",
-					"@Map Chest, $has|animalflute, $disc",
-					"@Map Chest, $has|animalflute, $bwand, $wheel_hop"
+					"@Map Chest, $has|animalflute, $has|disc",
+					"@Map Chest, $has|animalflute, $has|bwand, $wheel_hop"
 				],
 				"sections": [
 					{
