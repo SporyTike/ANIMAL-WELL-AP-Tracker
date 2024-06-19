@@ -1979,7 +1979,7 @@
 			{
 				"name": "F. Pack Chest",
 				"access_rules": [
-					"@B. B. Wand Chest, $has|housekey",
+					"@B.B. Wand Chest, $has|housekey",
 					"$fast_travel_fake, $has|lantern"
 				],
 				"sections": [
@@ -2726,7 +2726,7 @@
 				"access_rules": [
 					"@Map Chest, $has|animalflute, $bubble_short",
 					"@Map Chest, $has|animalflute, $disc",
-					"@Map CHest, $has|animalflute, $bwand, $wheel_hop"
+					"@Map Chest, $has|animalflute, $bwand, $wheel_hop"
 				],
 				"sections": [
 					{

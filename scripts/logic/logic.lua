@@ -82,27 +82,8 @@ function wheel_hop()
 		and has("option_wheel_hopping_on")
 end
 
-function fast_travel()
-	return starting_area()
-	or (bird_flute_chest()
-		and activated_bird_fast_travel())
-	or (fish_west()
-		and activated_fish_fast_travel())
-	or (frog_dark_room()
-		and activated_frog_fast_travel())
-	or (bear_middle_phone_room()
-		and activated_bear_fast_travel())
-	or (dog_fast_travel_room()
-		and activated_dog_fast_travel())
-	or (hippo_entry()
-		and activated_hippo_fast_travel())
-	or fast_travel_fish_teleport()
-	or fast_travel_fake()
-end
-
 function fast_travel_fake()
-	return starting_area()
-		and has("animalflute")
+	return has("animalflute")
 end
 
 function bunny_warp()
