@@ -1,0 +1,22 @@
+{
+	"versions": [
+		{
+			"package_version": "0.9.1b",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.1b",
+			"sha256": "1b9218a4b43b3e140ad0d819b9d5007e7acad9f852cb57b20635f484373df829",
+			"changelog": ["Remove unnecessary folder layer", "Update note image from v0.9.1"]
+		},
+		{
+			"package_version": "0.9.1",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.1",
+			"sha256": "5b88c16b9249ca7027b953bb638246d647b5aa3c8dbfc3f83049773154efb0e9",
+			"changelog": ["Fix 'B. Wand Chest' not being in logic with firecrackers only", "Fix notes of Evil Bunny and Fish Bunny", "Remove notes from location names"]
+		},
+		{
+			"package_version": "0.9.0",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.0",
+			"sha256": "ef53af2e661defedc8a8825c0cb75c6316632f0ce2b009822204449ca07a34cc",
+			"changelog": ["Initial release"]
+		}
+	]
+}

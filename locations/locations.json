@@ -5,7 +5,7 @@
 			{
 				"name": "Community Bunny",
 				"access_rules": [
-					"$bunny_mural"
+					"@Map Chest, $has|remote"
 				],
 				"visibility_rules": [
 					"$has|option_bunnies_as_checks_on"
@@ -28,7 +28,7 @@
 			{
 				"name": "Chinchilla Bunny",
 				"access_rules": [
-					"$bunny_chinchilla_vine"
+					"$has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -37,7 +37,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -51,7 +51,8 @@
 			{
 				"name": "Disc Spike Bunny",
 				"access_rules": [
-					"$bunny_disc_spike"
+					"@Forbidden Egg Chest, $has|disc",
+					"@Forbidden Egg Chest, $bubble_long, $wheel_hop, $has|option_wheel_tricks_on"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -74,7 +75,7 @@
 			{
 				"name": "Doodle Bunny",
 				"access_rules": [
-					"$bunny_map"
+					"$has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -83,7 +84,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -97,7 +98,7 @@
 			{
 				"name": "Evil Bunny",
 				"access_rules": [
-					"$bunny_face"
+					"$has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -106,7 +107,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -120,7 +121,7 @@
 			{
 				"name": "Fish Bunny",
 				"access_rules": [
-					"$bunny_fish"
+					"@Map Chest, $has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -129,7 +130,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -143,7 +144,7 @@
 			{
 				"name": "Flashing Bunny",
 				"access_rules": [
-					"$bunny_tv"
+					"@F. Pack Chest, $has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -152,7 +153,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -166,7 +167,7 @@
 			{
 				"name": "Flowering Bunny",
 				"access_rules": [
-					"$bunny_file_bud"
+					"$has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -175,7 +176,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -189,7 +190,8 @@
 			{
 				"name": "Ghost Bunny",
 				"access_rules": [
-					"$bunny_ghost_dog"
+					"@Map Chest, @Bear Kangaroo Fountain, $has|slink",
+					"@Map Chest, @Bear Kangaroo Fountain, $has|bball, $has|option_weird_tricks_on"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -198,7 +200,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -212,7 +214,7 @@
 			{
 				"name": "Green Bunny",
 				"access_rules": [
-					"$bunny_duck"
+					"@Map Chest, $has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -221,7 +223,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -235,7 +237,7 @@
 			{
 				"name": "Imaginary Bunny",
 				"access_rules": [
-					"$bunny_dream"
+					""
 				],
 				"visibility_rules": [
 					"$has|option_bunnies_as_checks_on"
@@ -258,7 +260,7 @@
 			{
 				"name": "Invisible Bunny",
 				"access_rules": [
-					"$bunny_uv"
+					"@Map Chest, $has|uvlantern"
 				],
 				"visibility_rules": [
 					"$has|option_bunnies_as_checks_on"
@@ -281,7 +283,8 @@
 			{
 				"name": "Lava Bunny",
 				"access_rules": [
-					"$bunny_lava"
+					"@Match in Switch-Bounce Room Chest, $has|remote, $bubble_long",
+					"@Forbidden Egg Chest, $has|remote, $bubble_long"
 				],
 				"visibility_rules": [
 					"$has|option_bunnies_as_checks_on"
@@ -304,7 +307,10 @@
 			{
 				"name": "Paper Bunny",
 				"access_rules": [
-					"$bunny_barcode"
+					"@Match in Switch-Bounce Room Chest, $can_distract_dogs, $has|animalflute",
+					"@F. Pack Chest, $has|officekey, $has|animalflute",
+					"@Forbidden Egg Chest, $bubble_long",
+					"@Forbidden Egg Chest, $has|disc"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -313,7 +319,7 @@
 					{
 						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
 						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -332,7 +338,8 @@
 			{
 				"name": "Singing Bunny",
 				"access_rules": [
-					"$bunny_crow"
+					"@Bear Kangaroo Fountain, $has|animalflute, $has|slink",
+					"@Bear Kangaroo Fountain, $has|animalflute, $has|bball, $has|option_weird_tricks_on"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -355,7 +362,7 @@
 			{
 				"name": "Water Spike Bunny",
 				"access_rules": [
-					"$bunny_water_spike"
+					"@Great Egg Chest, $bubble_long"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -452,7 +459,9 @@
 			{
 				"name": "Ancient Egg Chest",
 				"access_rules": [
-					"$egg_ancient"
+					"@Normal Egg Chest, $bubble_short",
+					"@Normal Egg Chest, $disc_hop_hard",
+					"@Normal Egg Chest, $has|bwand, $has|disc"
 				],
 				"sections": [
 					{
@@ -472,7 +481,9 @@
 			{
 				"name": "Big Egg Chest",
 				"access_rules": [
-					"$egg_big"
+					"@P. Flame, $has|remote, $has|yoyo",
+					"@Match by Dog Fish Pipe Chest, $has|slink, $has|remote, $has|yoyo",
+					"@Match by Dog Fish Pipe Chest, $has|bball, $has|option_weird_tricks_on, $has|remote, $has|yoyo"
 				],
 				"sections": [
 					{
@@ -492,7 +503,7 @@
 			{
 				"name": "Brick Egg Chest",
 				"access_rules": [
-					"$egg_brick"
+					"@Fish Lower, $has|disc, $has|wheel"
 				],
 				"sections": [
 					{
@@ -512,7 +523,8 @@
 			{
 				"name": "Brown Egg Chest",
 				"access_rules": [
-					"$egg_brown"
+					"@Dog Above Fast Travel, $has|slink",
+					"@Dog Above Fast Travel, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -532,7 +544,8 @@
 			{
 				"name": "Bubble Egg Chest",
 				"access_rules": [
-					"$egg_bubble"
+					"@Map Chest, $has|bwand",
+					"@Map Chest, $has|disc"
 				],
 				"sections": [
 					{
@@ -552,7 +565,12 @@
 			{
 				"name": "Chaos Egg Chest",
 				"access_rules": [
-					"$egg_chaos"
+					"@Bear Kangaroo Fountain, $has|slink",
+					"@Bear Kangaroo Fountain, $has|bball, $has|option_weird_tricks_on",
+					"@Vanity Egg Chest, $has|bball",
+					"@Match in Bear Area, $has|bwand, $tanking_damage",
+					"@Match in Bear Area, $wheel_hop, $tanking_damage",
+					"@Match in Bear Area, $has|disc, $has|lantern"
 				],
 				"sections": [
 					{
@@ -572,7 +590,10 @@
 			{
 				"name": "Chocolate Egg Chest",
 				"access_rules": [
-					"$egg_chocolate"
+					"@Match in Bear Area, $has|bwand",
+					"@Match in Center Well Chest, $has|remote, $bubble_short",
+					"@Match in Center Well Chest, $has|remote, $has|disc",
+					"$fast_travel_fake, $has|bwand"
 				],
 				"sections": [
 					{
@@ -592,7 +613,7 @@
 			{
 				"name": "Clover Egg Chest",
 				"access_rules": [
-					"$egg_clover"
+					""
 				],
 				"sections": [
 					{
@@ -612,7 +633,8 @@
 			{
 				"name": "Crystal Egg Chest",
 				"access_rules": [
-					"$egg_crystal"
+					"@Dog Above Fast Travel, $has|top, $has|bball, $has|remote, $has|wheel, $has|slink",
+					"@Dog Above Fast Travel, $has|top, $has|bball, $has|remote, $has|wheel, $has|disc, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -632,7 +654,8 @@
 			{
 				"name": "Dazzle Egg Chest",
 				"access_rules": [
-					"$egg_dazzle"
+					"@Normal Egg Chest, $has|bwand",
+					"@Normal Egg Chest, $has|disc, @has|wheel"
 				],
 				"sections": [
 					{
@@ -652,7 +675,8 @@
 			{
 				"name": "Depraved Egg Chest",
 				"access_rules": [
-					"$egg_depraved"
+					"@Match in Switch-Bounce Room Chest, $can_defeat_ghost",
+					"@Match in Switch-Bounce Room Chest, $can_use_matches"
 				],
 				"sections": [
 					{
@@ -672,7 +696,7 @@
 			{
 				"name": "Desert Egg Chest",
 				"access_rules": [
-					"$egg_desert"
+					"@Frog Bird After Yoyo 2, $has|yoyo, $has|bwand"
 				],
 				"sections": [
 					{
@@ -692,7 +716,7 @@
 			{
 				"name": "Dream Egg Chest",
 				"access_rules": [
-					"$egg_dream"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -712,7 +736,7 @@
 			{
 				"name": "Egg As A Service Chest",
 				"access_rules": [
-					"$egg_service"
+					"@Bat Room"
 				],
 				"sections": [
 					{
@@ -732,7 +756,7 @@
 			{
 				"name": "Evil Egg Chest",
 				"access_rules": [
-					"$egg_evil"
+					"@Map Chest, $has|animalflute"
 				],
 				"sections": [
 					{
@@ -752,7 +776,8 @@
 			{
 				"name": "Fire Egg Chest",
 				"access_rules": [
-					"$egg_fire"
+					"@Map Chest, $has|disc",
+					"@Map Chest, $bubble_short"
 				],
 				"sections": [
 					{
@@ -772,7 +797,9 @@
 			{
 				"name": "Forbidden Egg Chest",
 				"access_rules": [
-					"$egg_forbidden"
+					"@Dog Fast Travel, $bubble_long",
+					"@Dog Fast Travel, $has|disc",
+					"@Vanity Egg Chest, $has|top"
 				],
 				"sections": [
 					{
@@ -792,7 +819,7 @@
 			{
 				"name": "Friendship Egg Chest",
 				"access_rules": [
-					"$egg_friendship"
+					"@Normal Egg Chest, $has|bwand"
 				],
 				"sections": [
 					{
@@ -812,7 +839,9 @@
 			{
 				"name": "Future Egg Chest",
 				"access_rules": [
-					"$egg_future"
+					"@Chinchilla Bunny",
+					"@Key Chest in Upper Bear",
+					"@Bear Kangaroo Fountain, $has|top"
 				],
 				"sections": [
 					{
@@ -832,7 +861,7 @@
 			{
 				"name": "Galaxy Egg Chest",
 				"access_rules": [
-					"$egg_galaxy"
+					"@Normal Egg Chest, $has|disc, $has|remote"
 				],
 				"sections": [
 					{
@@ -852,7 +881,7 @@
 			{
 				"name": "Golden Egg Chest",
 				"access_rules": [
-					"$egg_golden"
+					"@Desert Egg Chest, $has|wheel"
 				],
 				"sections": [
 					{
@@ -872,7 +901,8 @@
 			{
 				"name": "Goodnight Egg Chest",
 				"access_rules": [
-					"$egg_goodnight"
+					"@Fish Lower, $can_break_spikes, $can_defeat_ghost",
+					"@Fish Lower, @Fish Candle in Penguin Room, $can break_spikes"
 				],
 				"sections": [
 					{
@@ -892,7 +922,7 @@
 			{
 				"name": "Gorgeous Egg Chest",
 				"access_rules": [
-					"$egg_gorgeous"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -912,7 +942,9 @@
 			{
 				"name": "Great Egg Chest",
 				"access_rules": [
-					"$egg_great"
+					"@Normal Egg Chest, $has|bwand",
+					"@Normal Egg Chest, $disc_hop",
+					"@Normal Egg Chest, $wheel_hop"
 				],
 				"sections": [
 					{
@@ -932,7 +964,8 @@
 			{
 				"name": "Holiday Egg Chest",
 				"access_rules": [
-					"$egg_holiday"
+					"@Map Chest, $has|bwand",
+					"@Map Chest, $disc_hop"
 				],
 				"sections": [
 					{
@@ -952,7 +985,8 @@
 			{
 				"name": "Ice Egg Chest",
 				"access_rules": [
-					"$egg_ice"
+					"@S Medal Door, $has|remote",
+					"@S Medal Door, $bubble_long"
 				],
 				"sections": [
 					{
@@ -972,7 +1006,7 @@
 			{
 				"name": "Iridescent Egg Chest",
 				"access_rules": [
-					"$egg_iridescent"
+					"@S Medal Door, $has|remote"
 				],
 				"sections": [
 					{
@@ -992,7 +1026,10 @@
 			{
 				"name": "Jade Egg Chest",
 				"access_rules": [
-					"$egg_jade"
+					"@Match by Dog Fish Pipe Chest, $has|bwand",
+					"@Frog Bird After Yoyo 2, $has|yoyo",
+					"@Frog Bird After Yoyo 2, $has|bball",
+					"@Frog Bird After Yoyo 2, $has|lantern"
 				],
 				"sections": [
 					{
@@ -1012,7 +1049,14 @@
 			{
 				"name": "Laissez-faire Egg Chest",
 				"access_rules": [
-					"$egg_lf"
+					"@Key Chest in Upper Bear, $has|firecrackers, $can_use_keys, $has|disc",
+					"@Key Chest in Upper Bear, $has|firecrackers, $can_use_keys, $has|bwand",
+					"@Key Chest in Upper Bear, $has|firecrackers, $can_use_keys, $wheel_hop",
+					"@Key Chest in Upper Bear, $has|firecrackers, $bubble_short, $has|option_weird_tricks_on",
+					"@Key Chest in Upper Bear, $has|firecrackers, $has|bball, $has|option_weird_tricks_on, $has|disc",
+					"@Key Chest in Upper Bear, $has|firecrackers, $has|bball, $has|option_weird_tricks_on, $has|bwand",
+					"@Key Chest in Upper Bear, $has|firecrackers, $has|bball, $has|option_weird_tricks_on, $wheel_hop",
+					"@Razzle Egg Chest, $has|firecrackers"
 				],
 				"sections": [
 					{
@@ -1032,7 +1076,7 @@
 			{
 				"name": "Magic Egg Chest",
 				"access_rules": [
-					"$egg_magic"
+					"@Normal Egg Chest, $has|bwand"
 				],
 				"sections": [
 					{
@@ -1052,7 +1096,8 @@
 			{
 				"name": "Moon Egg Chest",
 				"access_rules": [
-					"$egg_moon"
+					"@Map Chest, $has|lantern, $has|bwand",
+					"@Map Chest, $has|lantern, $has|disc"
 				],
 				"sections": [
 					{
@@ -1072,7 +1117,7 @@
 			{
 				"name": "Mystic Egg Chest",
 				"access_rules": [
-					"$egg_mystic"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -1092,7 +1137,7 @@
 			{
 				"name": "Neon Egg Chest",
 				"access_rules": [
-					"$egg_neon"
+					"@Remote Chest, $has|remote, $has|bball"
 				],
 				"sections": [
 					{
@@ -1112,7 +1157,7 @@
 			{
 				"name": "Normal Egg Chest",
 				"access_rules": [
-					"$egg_normal"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -1132,7 +1177,8 @@
 			{
 				"name": "Obsidian Egg Chest",
 				"access_rules": [
-					"$egg_obsidian"
+					"@Desert Egg Chest, $has|disc",
+					"@Desert Egg Chest, $bubble_short, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1152,7 +1198,7 @@
 			{
 				"name": "Orange Egg Chest",
 				"access_rules": [
-					"$egg_orange"
+					"@Map Chest, $has|top"
 				],
 				"sections": [
 					{
@@ -1172,7 +1218,7 @@
 			{
 				"name": "Pickled Egg Chest",
 				"access_rules": [
-					"$egg_pickled"
+					"$fast_travel_fake"
 				],
 				"sections": [
 					{
@@ -1192,7 +1238,7 @@
 			{
 				"name": "Planet Egg Chest",
 				"access_rules": [
-					"$egg_planet"
+					"@Map Chest, $can_break_spikes_below"
 				],
 				"sections": [
 					{
@@ -1212,7 +1258,8 @@
 			{
 				"name": "Plant Egg Chest",
 				"access_rules": [
-					"$egg_plant"
+					"@Vanity Egg Chest, $has|slink, $has|disc",
+					"@Forbidden Egg Chest, $has|slink, $has|disc"
 				],
 				"sections": [
 					{
@@ -1232,7 +1279,9 @@
 			{
 				"name": "Post Modern Egg Chest",
 				"access_rules": [
-					"$egg_post_modern"
+					"@P. Flame, @Map Chest, $has|top",
+					"@Match by Dog Fish Pipe Chest, @Map Chest, $has|slink, $has|top", 
+					"@Match by Dog Fish Pipe Chest, @Map Chest, $has|bball, $has|option_weird_tricks_on, $has|top"
 				],
 				"sections": [
 					{
@@ -1252,7 +1301,8 @@
 			{
 				"name": "Promise Egg Chest",
 				"access_rules": [
-					"$egg_promise"
+					"@Map Chest, $can_break_spikes_below",
+					"@Map Chest, $has|disc, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1272,7 +1322,7 @@
 			{
 				"name": "Rain Egg Chest",
 				"access_rules": [
-					"$egg_rain"
+					"@Map Chest, $has|top"
 				],
 				"sections": [
 					{
@@ -1292,7 +1342,9 @@
 			{
 				"name": "Raw Egg Chest",
 				"access_rules": [
-					"$egg_raw"
+					"@Dog Fast Travel, $has|slink, $disc_hop_hard",
+					"@Dog Fast Travel, $has|slink, $bubble_short",
+					"@Dog Fast Travel, $has|slink, $can_use_keys"
 				],
 				"sections": [
 					{
@@ -1312,7 +1364,9 @@
 			{
 				"name": "Razzle Egg Chest",
 				"access_rules": [
-					"$egg_razzle"
+					"@V. Flame, $bubble_short",
+					"@V. Flame, $disc_hop_hard",
+					"@V. Flame, $wheel_hop"
 				],
 				"sections": [
 					{
@@ -1332,7 +1386,11 @@
 			{
 				"name": "Red Egg Chest",
 				"access_rules": [
-					"$egg_red"
+					"@Map Chest, $has|bwand, $has|firecrackers",
+					"@Map Chest, $has|remote, $has|firecrackers",
+					"@Map Chest, $has|bball, $has|firecrackers",
+					"@Map Chest, $has|top, $has|firecrackers, $has|option_weird_tricks_on",
+					"@Map Chest, $has|disc"
 				],
 				"sections": [
 					{
@@ -1352,7 +1410,7 @@
 			{
 				"name": "Reference Egg Chest",
 				"access_rules": [
-					"$egg_reference"
+					"@Dog Above Fast Travel, $has|slink, $has|disc"
 				],
 				"sections": [
 					{
@@ -1372,7 +1430,10 @@
 			{
 				"name": "Ruby Egg Chest",
 				"access_rules": [
-					"$egg_ruby"
+					"@Frog Bird After Yoyo 2, $has|lantern",
+					"@Jade Egg Chest, $has|disc",
+					"@Jade Egg Chest, $has|top, $has|animalflute",
+					"@Jade Egg Chest, $bubble_short"
 				],
 				"sections": [
 					{
@@ -1392,7 +1453,7 @@
 			{
 				"name": "Rust Egg Chest",
 				"access_rules": [
-					"$egg_rust"
+					"@Jade Egg Chest"
 				],
 				"sections": [
 					{
@@ -1412,7 +1473,7 @@
 			{
 				"name": "Sapphire Egg Chest",
 				"access_rules": [
-					"$egg_sapphire"
+					"@Frog Bird After Yoyo 2, $has|lantern"
 				],
 				"sections": [
 					{
@@ -1432,7 +1493,8 @@
 			{
 				"name": "Scarlet Egg Chest",
 				"access_rules": [
-					"$egg_scarlet"
+					"@Wheel Chest, $has|wheel",
+					"@Fish Boss 1, $has|bwand, $has|wheel"
 				],
 				"sections": [
 					{
@@ -1452,7 +1514,14 @@
 			{
 				"name": "Shadow Egg Chest",
 				"access_rules": [
-					"$egg_shadow"
+					"@Bear Kangaroo Fountain, $has|lantern, $has|slink",
+					"@Bear Kangaroo Fountain, $has|lantern, $has|bball, $has|option_weird_tricks_on",
+					"@Bear Kangaroo Fountain, $has|slink",
+					"@Bear Kangaroo Fountain, $tanking_damage, $has|bball, $has|option_weird_tricks_on",
+					"@Swan Egg Chest, $has|slink, $has|yoyo, $has|top",
+					"@Swan Egg Chest, $has|slink, $has|firecrackers, $has|top",
+					"@Bear Chameleon Room 2, $disc_hop_hard, $has|slink, $has|yoyo, $has|top",
+					"@Bear Chameleon Room 2, $disc_hop_hard, $has|slink, $has|firecrackers, $has|top"
 				],
 				"sections": [
 					{
@@ -1472,7 +1541,7 @@
 			{
 				"name": "Sour Egg Chest",
 				"access_rules": [
-					"$egg_sour"
+					"@Mock Disc Chest"
 				],
 				"sections": [
 					{
@@ -1492,7 +1561,12 @@
 			{
 				"name": "Sunset Egg Chest",
 				"access_rules": [
-					"$egg_sunset"
+					"@Map Chest, $has|bball",
+					"@Map Chest, $has|yoyo",
+					"@Map Chest, $has|top",
+					"@Map Chest, $has|wheel, $has|disc",
+					"@Map Chest, $has|disc, $has|option_weird_tricks_on",
+					"@Map Chest, $has|wheel, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1512,7 +1586,8 @@
 			{
 				"name": "Swan Egg Chest",
 				"access_rules": [
-					"$egg_swan"
+					"@Bear Chameleon Room 2, $has|firecrackers",
+					"@Bear Chameleon Room 2, $has|animalflute"
 				],
 				"sections": [
 					{
@@ -1532,7 +1607,9 @@
 			{
 				"name": "Sweet Egg Chest",
 				"access_rules": [
-					"$egg_sweet"
+					"@Jade Egg Chest, $has|bubble",
+					"@Map Chest, $bubble_short",
+					"@Map Chest, $has|disc"
 				],
 				"sections": [
 					{
@@ -1552,7 +1629,18 @@
 			{
 				"name": "Transcendental Egg Chest",
 				"access_rules": [
-					"$egg_transcendental"
+					"@Map Chest, $bubble_short",
+					"@Map Chest, $disc_hop_hard",
+					"@Bear Kangaroo Fountain, $wheel_hop",
+					"@Slink Chest, $has|slink, $has|bwand",
+					"@Slink Chest, $has|slink, $has|disc_hop",
+					"@Slink Chest, $has|slink, $has|wheel_hop",
+					"@Slink Chest, $has|top, $has|bwand",
+					"@Slink Chest, $has|top, $has|disc_hop",
+					"@Slink Chest, $has|top, $has|wheel_hop",
+					"@Slink Chest, $has|bball, $has|bwand",
+					"@Slink Chest, $has|bball, $has|disc_hop",
+					"@Slink Chest, $has|bball, $has|wheel_hop"
 				],
 				"sections": [
 					{
@@ -1572,7 +1660,8 @@
 			{
 				"name": "Travel Egg Chest",
 				"access_rules": [
-					"$egg_travel"
+					"@Map Chest, $has|top",
+					"@Map Chest, $can_use_keys"
 				],
 				"sections": [
 					{
@@ -1592,7 +1681,8 @@
 			{
 				"name": "Truth Egg Chest",
 				"access_rules": [
-					"$egg_truth"
+					"@Bear Kangaroo Fountain, $has|disc",
+					"@Map Chest, $disc_hop_hard"
 				],
 				"sections": [
 					{
@@ -1612,7 +1702,10 @@
 			{
 				"name": "Universal Basic Egg Chest",
 				"access_rules": [
-					"$egg_universal"
+					"@Zen Egg Chest, $has|yoyo",
+					"@Zen Egg Chest, $has|wheel",
+					"@Zen Egg Chest, $has|disc",
+					"@Zen Egg Chest, $has|firecrackers"
 				],
 				"sections": [
 					{
@@ -1632,7 +1725,11 @@
 			{
 				"name": "Upside Down Egg Chest",
 				"access_rules": [
-					"$egg_upside_down"
+					"@Map Chest, $bubble_short",
+					"@Bat Room, $has|remote",
+					"@Bat Room, $has|disc",
+					"@Bat Room, $has|top",
+					"@Bat Room, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1652,7 +1749,8 @@
 			{
 				"name": "Value Egg Chest",
 				"access_rules": [
-					"$egg_value"
+					"@Key Chest in Upper Bear, $has|disc, $can_scare_hedgehog",
+					"@Key Chest in Upper Bear, $bubble_short, $can_scare_hedgehog"
 				],
 				"sections": [
 					{
@@ -1672,7 +1770,8 @@
 			{
 				"name": "Vanity Egg Chest",
 				"access_rules": [
-					"$egg_vanity"
+					"@K Medal Door, $has|bball",
+					"@Forbidden Egg Chest, $has|slink, $has|bball"
 				],
 				"sections": [
 					{
@@ -1692,7 +1791,7 @@
 			{
 				"name": "Virtual Egg Chest",
 				"access_rules": [
-					"$egg_virtual"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -1712,7 +1811,10 @@
 			{
 				"name": "Zen Egg Chest",
 				"access_rules": [
-					"$egg_zen"
+					"@Key Chest in Upper Bear, $has|bwand",
+					"@Key Chest in Upper Bear, $has|disc",
+					"@Key Chest in Upper Bear, $wheel_hop",
+					"@Bear Kangaroo Fountain, $has|top"
 				],
 				"sections": [
 					{
@@ -1732,7 +1834,7 @@
 			{
 				"name": "65th Egg Chest",
 				"access_rules": [
-					"$egg_65"
+					"@Top Chest, $eggs_required|64"
 				],
 				"sections": [
 					{
@@ -1748,7 +1850,7 @@
 						"y": 548
 					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -1757,7 +1859,7 @@
 			{
 				"name": "Animal Flute Chest",
 				"access_rules": [
-					"$flute_chest"
+					"@Map Chest, $eggs_required|8"
 				],
 				"sections": [
 					{
@@ -1777,7 +1879,8 @@
 			{
 				"name": "B. Ball Chest",
 				"access_rules": [
-					"$b_ball_chest"
+					"@K Medal Door",
+					"@Vanity Egg Chest"
 				],
 				"sections": [
 					{
@@ -1797,7 +1900,7 @@
 			{
 				"name": "B. Wand Chest",
 				"access_rules": [
-					"$b_wand_chest"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -1817,7 +1920,8 @@
 			{
 				"name": "B.B. Wand Chest",
 				"access_rules": [
-					"$bb_wand_chest"
+					"@Manticore Room, $has|slink, $has|yoyo, $has|disc",
+					"@Manticore Room, $has|slink, $has|yoyo, $has|bwand"
 				],
 				"sections": [
 					{
@@ -1837,7 +1941,7 @@
 			{
 				"name": "Disc",
 				"access_rules": [
-					"$disc_spot"
+					"@Map Chest, $has|mdisc"
 				],
 				"sections": [
 					{	
@@ -1855,7 +1959,7 @@
 			{
 				"name": "E. Medal Chest",
 				"access_rules": [
-					"$medal_e"
+					"@Squirrel First Candle, @Dog Dark Room Candle, @Dog Boxed Candle, @Dog Candle in Many Switches Room, @Dog Candle in Disc Switch Maze, @Dog Candle in Bat Room, @Fish Candle in Penguin Room, @Frog Switch Candle Carousel, @Bear Candle in Dark Maze"
 				],
 				"sections": [
 					{
@@ -1875,7 +1979,8 @@
 			{
 				"name": "F. Pack Chest",
 				"access_rules": [
-					"$fanny_pack_chest"
+					"@B. B. Wand Chest, $has|housekey",
+					"$fast_travel_fake, $has|lantern"
 				],
 				"sections": [
 					{
@@ -1895,7 +2000,9 @@
 			{
 				"name": "Lantern Chest",
 				"access_rules": [
-					"$lantern_chest"
+					"@Well Entry, $has|slink, $has|yoyo",
+					"@Well Entry, $has|slink, $has|bball, $has|option_weird_tricks_on",
+					"@Well Entry, $has|lantern"
 				],
 				"sections": [
 					{
@@ -1915,7 +2022,8 @@
 			{
 				"name": "Map Chest",
 				"access_rules": [
-					"$map_chest"
+					"$can_defeat_ghost",
+					"$fast_travel_fake"
 				],
 				"sections": [
 					{
@@ -1935,7 +2043,7 @@
 			{
 				"name": "Mock Disc Chest",
 				"access_rules": [
-					"$mock_disc_chest"
+					"@Map Chest"
 				],
 				"visibility_rules": [
 					""
@@ -1958,7 +2066,9 @@
 			{
 				"name": "Pencil Chest",
 				"access_rules": [
-					"$pencil_chest"
+					"@Map Chest, $eggs_required|16, $has|bwand",
+					"@Map Chest, $eggs_required|16, $has|disc",
+					"@Map Chest, $eggs_required|16, $wheel_hop"
 				],
 				"sections": [
 					{
@@ -1978,7 +2088,7 @@
 			{
 				"name": "Remote Chest",
 				"access_rules": [
-					"$remote_chest"
+					"@S Medal Door"
 				],
 				"sections": [
 					{
@@ -1998,7 +2108,10 @@
 			{
 				"name": "S. Medal Chest",
 				"access_rules": [
-					"$medal_s"
+					"@V. Flame, @Key Chest in Upper Bear, $can_use_keys",
+					"@V. Flame, @Key Chest in Upper Bear, $bubble_short, $has|option_weird_tricks_on",
+					"@V. Flame, @Key Chest in Upper Bear, $has|bball, $has|option_weird_tricks_on",
+					"@V. Flame, @Razzle Egg Chest"
 				],
 				"sections": [
 					{
@@ -2018,7 +2131,12 @@
 			{
 				"name": "Slink Chest",
 				"access_rules": [
-					"$slink_chest"
+					"@Key Chest in Upper Bear, $can_use_keys",
+					"@Key Chest in Upper Bear, $bubble_short, $has|option_weird_tricks_on",
+					"@Key Chest in Upper Bear, $has|bball, $has|option_weird_tricks_on",
+					"@Razzle Egg Chest",
+					"@Bear Kangaroo Fountain, $wheel_hop",
+					"@Bear Kangaroo Fountain, $has|bwand"
 				],
 				"sections": [
 					{
@@ -2038,7 +2156,7 @@
 			{
 				"name": "Stamp Chest",
 				"access_rules": [
-					"$stamp_chest"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -2058,7 +2176,7 @@
 			{
 				"name": "Top Chest",
 				"access_rules": [
-					"$top_chest"
+					"@Pencil Chest, $eggs_required|32"
 				],
 				"sections": [
 					{
@@ -2078,7 +2196,12 @@
 			{
 				"name": "UV Lantern Chest",
 				"access_rules": [
-					"$uv_lantern_chest"
+					"@B. Flame, $has|top, $has|emedal, $has|animalflute, $has|bwand",
+					"@B. Flame, $has|top, $has|emedal, $has|animalflute, $has|disc",
+					"@B. Flame, $has|top, $has|emedal, $has|animalflute, $wheel_hop",
+					"$fast_travel_fake, $has|bwand",
+					"$fast_travel_fake, $has|disc",
+					"$fast_travel_fake, $wheel_hop"
 				],
 				"sections": [
 					{
@@ -2098,7 +2221,8 @@
 			{
 				"name": "Wheel Chest",
 				"access_rules": [
-					"$wheel_chest"
+					"@Fish Lower, $can_break_spikes, $has|top, $has|animalflute",
+					"@Desert Egg Chest, $has|top, $has|animalflute"
 				],
 				"sections": [
 					{
@@ -2118,7 +2242,7 @@
 			{
 				"name": "Yoyo Chest",
 				"access_rules": [
-					"$yoyo_chest"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -2143,7 +2267,7 @@
 			{
 				"name": "B. Flame",
 				"access_rules": [
-					"$flame_blue"
+					"@Fish Boss 1, $can_open_flame"
 				],
 				"sections": [
 					{
@@ -2161,7 +2285,7 @@
 			{
 				"name": "G. Flame",
 				"access_rules": [
-					"$flame_green"
+					"@Desert Egg Chest, $can_open_flame"
 				],
 				"sections": [
 					{
@@ -2179,7 +2303,9 @@
 			{
 				"name": "P. Flame",
 				"access_rules": [
-					"$flame_pink"
+					"@Map Chest, @Dog Fast Travel, $has|mdisc, $has|slink, $can_open_flame",
+					"@Map Chest, @Dog Fast Travel, $has|mdisc, $wheel_hop, $can_open_flame",
+					"@Map Chest, @Dog Fast Travel, $has|mdisc, $has|top, $can_open_flame, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -2197,7 +2323,8 @@
 			{
 				"name": "V. Flame",
 				"access_rules": [
-					"$flame_violet"
+					"@Swan Egg Chest, $has|yoyo, $has|slink",
+					"@Swan Egg Chest, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -2220,7 +2347,14 @@
 			{
 				"name": "Bear Candle in Dark Maze",
 				"access_rules": [
-					"$candle_bear"
+					"@Key Chest in Upper Bear, $can_use_matches, $can_use_keys, $has|disc",
+					"@Key Chest in Upper Bear, $can_use_matches, $can_use_keys, $has|bwand",
+					"@Key Chest in Upper Bear, $can_use_matches, $can_use_keys, $wheel_hop",
+					"@Key Chest in Upper Bear, $can_use_matches, $bubble_short, $has|option_weird_tricks_on",
+					"@Key Chest in Upper Bear, $can_use_matches, $has|bball, $has|option_weird_tricks_on, $has|disc",
+					"@Key Chest in Upper Bear, $can_use_matches, $has|bball, $has|option_weird_tricks_on, $has|bwand",
+					"@Key Chest in Upper Bear, $can_use_matches, $has|bball, $has|option_weird_tricks_on, $wheel_hop",
+					"@Razzle Egg Chest, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2243,7 +2377,13 @@
 			{
 				"name": "Dog Boxed Candle",
 				"access_rules": [
-					"$candle_dog_switch_box"
+					"@Map Chest, $can_use_matches, $bubble_long",
+					"@Map Chest, $can_use_matches, $disc_hop",
+					"@Barcode Bunny Spot, $can_use_matches, $has|top",
+					"@Barcode Bunny Spot, $can_use_matches, $has|disc",
+					"@Barcode Bunny Spot, $can_use_matches, $has|yoyo",
+					"@Barcode Bunny Spot, $can_use_matches, $has|remote",
+					"@Barcode Bunny Spot, $can_use_matches, $has|bball"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2266,7 +2406,7 @@
 			{
 				"name": "Dog Candle in Bat Room",
 				"access_rules": [
-					"$candle_dog_bat"
+					"@Bat Room, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2289,7 +2429,7 @@
 			{
 				"name": "Dog Candle in Disc Switch Maze",
 				"access_rules": [
-					"$candle_dog_disc_switches"
+					"@Match in Switch-Bounce Room Chest, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2312,10 +2452,10 @@
 			{
 				"name": "Dog Candle in Many Switches Room",
 				"access_rules": [
-					"$candle_dog_many_switches"
+					"@Bat Room"
 				],
 				"visibility_rules_rules": [
-					"$has|option_candle_checks_on"
+					"$has|option_candle_checks_on, $can_use_matches"
 				],
 				"sections": [
 					{
@@ -2335,7 +2475,7 @@
 			{
 				"name": "Dog Dark Room Candle",
 				"access_rules": [
-					"$candle_dog_dark"
+					"@Map Chest, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2358,7 +2498,9 @@
 			{
 				"name": "Fish Candle in Penguin Room",
 				"access_rules": [
-					"$candle_fish"
+					"@Fish Lower, $can_break_spikes, $has|disc, $can_use_matches",
+					"@Fish Lower, $can_break_spikes, $has|bwand, $can_use_matches",
+					"@Fish Lower, $can_break_spikes, $wheel_hop, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2381,7 +2523,7 @@
 			{
 				"name": "Frog Switch Candle Carousel",
 				"access_rules": [
-					"$candle_frog"
+					"@Map Chest, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2404,7 +2546,7 @@
 			{
 				"name": "Squirrel First Candle",
 				"access_rules": [
-					"$candle_first"
+					"@Map Chest, $can_use_matches"
 				],
 				"visibility_rules_rules": [
 					"$has|option_candle_checks_on"
@@ -2432,7 +2574,7 @@
 			{
 				"name": "Key Chest by Mouse Head Hitting Lever",
 				"access_rules": [
-					"$key_chest_mouse_head_lever"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -2452,7 +2594,7 @@
 			{
 				"name": "Key Chest in Dog with Chinchilla Crank",
 				"access_rules": [
-					"$key_dog"
+					"@Bat Room"
 				],
 				"sections": [
 					{
@@ -2472,7 +2614,10 @@
 			{
 				"name": "Key Chest in East Frog Guard Room",
 				"access_rules": [
-					"$key_frog_guard_room_east"
+					"@Frog Bird After Yoyo 2, $has|yoyo",
+					"@Frog Bird After Yoyo 2, $has|animalflute, $has|bwand",
+					"@Frog Bird After Yoyo 2, $has|animalflute, $has|option_weird_tricks_on",
+					"@Frog Bird After Yoyo 2, $has|bball"
 				],
 				"sections": [
 					{
@@ -2492,7 +2637,7 @@
 			{
 				"name": "Key Chest in Lower Bear",
 				"access_rules": [
-					"$key_bear_lower"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -2512,7 +2657,11 @@
 			{
 				"name": "Key Chest in Upper Bear",
 				"access_rules": [
-					"$key_bear_upper"
+					"@Map Chest, $bubble_short",
+					"@Map Chest, $can_use_keys",
+					"@Map Chest, $disc_hop_hard",
+					"@Ghost Bunny, $has|slink",
+					"@Bear Kangaroo Fountain, $has|top"
 				],
 				"sections": [
 					{
@@ -2532,7 +2681,9 @@
 			{
 				"name": "Key Chest in West Frog Guard Room",
 				"access_rules": [
-					"$key_frog_guard_room_west"
+					"@Frog Bird After Yoyo 2, $has|yoyo",
+					"@Frog Bird After Yoyo 2, $has|animalflute",
+					"@Frog Bird After Yoyo 2, $has|bball"
 				],
 				"sections": [
 					{
@@ -2552,7 +2703,8 @@
 			{
 				"name": "House Key",
 				"access_rules": [
-					"$key_house"
+					"@Manticore Room, $has|slink, $has|yoyo, $has|disc",
+					"@Manticore Room, $has|slink, $has|yoyo, $has|bwand"
 				],
 				"sections": [
 					{
@@ -2572,13 +2724,15 @@
 			{
 				"name": "Office Key Chest",
 				"access_rules": [
-					"$key_office"
+					"@Map Chest, $has|animalflute, $bubble_short",
+					"@Map Chest, $has|animalflute, $disc",
+					"@Map CHest, $has|animalflute, $bwand, $wheel_hop"
 				],
 				"sections": [
 					{
 						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
 						"chest_opened_img": "images/checks/Blue Chest_open.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -2588,7 +2742,7 @@
 						"y": 516
 					}
 				]
-			},
+			}
 		]
 	},
 	{
@@ -2597,7 +2751,11 @@
 			{
 				"name": "Match Above Egg Room",
 				"access_rules": [
-					"$match_above_egg_room"
+					"@Map Chest, $has|disc",
+					"@Map Chest, $has|yoyo",
+					"@Map Chest, $has|bball, $has|option_weird_tricks_on",
+					"@Map Chest, $has|top, $has|option_weird_tricks_on",
+					"@Map Chest, $bubble_short"
 				],
 				"sections": [
 					{
@@ -2617,7 +2775,10 @@
 			{
 				"name": "Match by Dog Fish Pipe Chest",
 				"access_rules": [
-					"$match_dog_upper"
+					"@Dog Fast Travel, $has|slink",
+					"@Dog Fast Travel, $wheel_hop",
+					"@Dog Fast Travel, $has|top, $has|option_weird_tricks_on",
+					"@Match in Switch-Bounce Room Chest"
 				],
 				"sections": [
 					{
@@ -2637,7 +2798,12 @@
 			{
 				"name": "Match in Bear Area",
 				"access_rules": [
-					"$match_bear"
+					"@Chaos Egg Chest, $has|slink",
+					"@Chaos Egg Chest, $has|bball, $has|option_weird_tricks_on",
+					"@Chaos Egg Chest, $has|disc, $tanking_damage",
+					"@Chaos Egg Chest, $has|bwand, $tanking_damage",
+					"@Chaos Egg Chest, $wheel_hop, $tanking_damage",
+					"$fast_travel_fake, $has|bubble"
 				],
 				"sections": [
 					{
@@ -2657,7 +2823,8 @@
 			{
 				"name": "Match in Center Well Chest",
 				"access_rules": [
-					"$match_center_well"
+					"@Match by Dog Fish Pipe Chest, $has|slink",
+					"@Match by Dog Fish Pipe Chest, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -2677,7 +2844,7 @@
 			{
 				"name": "Match in Fish Mural Room Chest",
 				"access_rules": [
-					"$match_fish_mural"
+					"@Map Chest"
 				],
 				"sections": [
 					{
@@ -2697,7 +2864,11 @@
 			{
 				"name": "Match in Guard Room Chest",
 				"access_rules": [
-					"$match_guard_room"
+					"@Frog Bird After Yoyo 2, $has|yoyo",
+					"@Frog Bird After Yoyo 2, $has|animalflute",
+					"@Frog Bird After Yoyo 2, $disc_hop",
+					"@Frog Bird After Yoyo 2, $has|bwand",
+					"@Frog Bird After Yoyo 2, $has|bball"
 				],
 				"sections": [
 					{
@@ -2717,7 +2888,9 @@
 			{
 				"name": "Match in Switch-Bounce Room Chest",
 				"access_rules": [
-					"$match_dog_switch_bounce"
+					"@Map Chest, $has|remote",
+					"@Map Chest, $has|disc",
+					"@Map Chest, $has|top"
 				],
 				"sections": [
 					{
@@ -2737,7 +2910,7 @@
 			{
 				"name": "Match in Tutorial Chest",
 				"access_rules": [
-					"$match_start_ceiling"
+					""
 				],
 				"sections": [
 					{
@@ -2757,7 +2930,9 @@
 			{
 				"name": "Match under Mouse Statue",
 				"access_rules": [
-					"$match_under_mouse_statue"
+					"@Planet Egg Chest",
+					"@Map Chest, $has|yoyo",
+					"@Map Chest, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -2814,7 +2989,7 @@
 					{
 						"chest_unopened_img": "images/checks/Blue Chest_closed.png",
 						"chest_opened_img": "images/checks/Blue Chest_open.png",
-						"item_count": 1,
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -2869,6 +3044,132 @@
 						"x": 1128,
 						"y": 1392
 					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Checkpoints",
+		"children": [
+			{
+				"name": "Barcode Bunny Spot",
+				"access_rules": [
+					"@Dog Fast Travel, $has|bwand",
+					"@Dog Fast Travel, $has|disc",
+					"@Dog Fast Travel, $wheel_hop",
+					"@Match in Switch-Bounce Room Chest, $can_distract_dogs",
+					"@Map Chest, $disc_hop",
+					"@Map Chest, $bubble_long"
+				]
+			},
+			{
+				"name": "Bat Room",
+				"access_rules": [
+					"@Barcode Bunny Spot, $can_break_spikes, $has|bwand, $has|remote",
+					"@Barcode Bunny Spot, $can_break_spikes, $has|disc",
+					"@Barcode Bunny Spot, $can_break_spikes, $has|yoyo",
+					"@Barcode Bunny Spot, $can_break_spikes, $has|bball",
+					"@Barcode Bunny Spot, $can_break_spikes, $has|top",
+					"@Map Chest, $bubble_long",
+					"@Map Chest, $disc_hop",
+					"@Upside Down Egg Chest, $has|remote"
+				]
+			},
+			{
+				"name": "Bear Chameleon Room 2",
+				"access_rules": [
+					"@Match in Bear Area, $has|slink, $has|yoyo",
+					"@Match in Bear Area, $has|slink, $has|bball, $has|option_weird_tricks_on",
+					"@Match in Bear Area, $has|yoyo, $has|bball, $has|option_weird_tricks_on"
+				]
+			},
+			{
+				"name": "Bear Kangaroo Fountain",
+				"access_rules": [
+					"@Map Chest, $has|slink",
+					"@Map Chest, $has|top, $has|yoyo",
+					"@Map Chest, $has|top, $has|bball",
+					"@Map Chest, $has|bball, $has|option_weird_tricks_on"
+				]
+			},
+			{
+				"name": "Dog Above Fast Travel",
+				"access_rules": [
+					"@Dog Fast Travel, $has|slink",
+					"@Dog Fast Travel, $bubble_short",
+					"@Dog Fast Travel, $has|disc"
+				]
+			},
+			{
+				"name": "Dog Fast Travel",
+				"access_rules": [
+					"@Bat Room, @Barcode Bunny Spot, $can_distract_dogs",
+					"@Barcode Bunny Spot, $bubble_short, $can_distract_dogs",
+					"@Barcode Bunny Spot, $disc_hop",
+					"@Forbidden Egg Chest, $bubble_long",
+					"@Forbidden Egg Chest, $has|disc"
+				]
+			},
+			{
+				"name": "Fish Boss 1",
+				"access_rules": [
+					"@Fish Lower, $has|disc",
+					"@Fish Lower, $has|option_weird_tricks_on, $bubble_long",
+					"@Fish Lower, $has|option_weird_tricks_on, $has|bwand, $has|bball",
+					"@Fish Lower, $has|option_weird_tricks_on, $wheel_hop, $has|bball"
+				]
+			},
+			{
+				"name": "Fish Lower",
+				"access_rules": [
+					"@Normal Egg Chest, $has|bwand, $has|disc",
+					"@Normal Egg Chest, $has|bwand, $has|remote",
+					"@Wheel Chest, $has|top"
+				]
+			},
+			{
+				"name": "Frog Bird After Yoyo 2",
+				"access_rules": [
+					"@Map Chest, $has|yoyo",
+					"@Map Chest, $has|bball, $has|option_weird_tricks_on",
+					"@Match by Dog Fish Pipe Chest, $has|bwand, $has|lantern",
+					"@Match by Dog Fish Pipe Chest, $has|bwand, $has|yoyo",
+					"@Match by Dog Fish Pipe Chest, $has|bwand, $has|bball"
+				]
+			},
+			{
+				"name": "Manticore Room",
+				"access_rules": [
+					"@Well Entry, $has|lantern, $has|yoyo, $has|disc",
+					"@Well Entry, $has|lantern, $has|yoyo, $wheel_hop, $tanking_damage",
+					"@Well Entry, $has|lantern, $has|yoyo, $has|bwand, $tanking_damage",
+					"@Well Entry, $has|lantern, $has|bball, $has|disc, $has|option_weird_tricks_on",
+					"@Well Entry, $has|lantern, $has|bball, $wheel_hop, $has|option_weird_tricks_on",
+					"@Well Entry, $has|lantern, $has|bball, $has|bwand, $has|option_weird_tricks_on",
+					"@Well Entry, $has|lantern, $has|bball, $wheel_hop, $has|yoyo",
+					"@Well Entry, $has|lantern, $has|bball, $has|bubble, $has|yoyo"
+				]
+			},
+			{
+				"name": "Well Entry",
+				"access_rules": [
+					"@B. Flame, @G. Flame, @P. Flame, @V.Flame"
+				]
+			},
+			{
+				"name": "K Medal Door",
+				"access_rules": [
+					"@Bat Room, $has|kmedal, $has|bwand",
+					"@Bat Room, $has|kmedal, $has|disc",
+					"@Bat Room, $has|kmedal, $wheel_hop"
+				]
+			},
+			{
+				"name": "S Medal Door",
+				"access_rules": [
+					"$has|smedal, $has|disc",
+					"$has|smedal, $has|bwand",
+					"$has|smedal, $wheel_hop"
 				]
 			}
 		]
