@@ -307,10 +307,8 @@
 			{
 				"name": "Paper Bunny",
 				"access_rules": [
-					"@Match in Switch-Bounce Room Chest, $can_distract_dogs, $has|animalflute",
-					"@F. Pack Chest, $has|officekey, $has|animalflute",
-					"@Forbidden Egg Chest, $bubble_long",
-					"@Forbidden Egg Chest, $has|disc"
+					"@Barcode Bunny Spot, $has|animalflute",
+					"@F. Pack Chest, $has|officekey, $has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -3070,7 +3068,7 @@
 					"@Barcode Bunny Spot, $can_break_spikes, $has|yoyo",
 					"@Barcode Bunny Spot, $can_break_spikes, $has|bball",
 					"@Barcode Bunny Spot, $can_break_spikes, $has|top",
-					"@Map Chest, $bubble_long",
+					"@Map Chest, $bubble_long, $can_break_spikes",
 					"@Map Chest, $disc_hop",
 					"@Upside Down Egg Chest, $has|remote"
 				]
