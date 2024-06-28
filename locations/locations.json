@@ -666,7 +666,7 @@
 				"name": "Dazzle Egg Chest",
 				"access_rules": [
 					"@Normal Egg Chest, $has|bwand",
-					"@Normal Egg Chest, $has|disc, @has|wheel"
+					"@Normal Egg Chest, $has|disc, $has|wheel"
 				],
 				"sections": [
 					{
