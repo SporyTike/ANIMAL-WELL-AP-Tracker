@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.5",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.5",
+			"sha256": "98928473064ce4b524b44c42e77344d3abf057a3eef05bf68dc76fe33fa8a992",
+			"changelog": ["Fix Dazzle Egg Chest logic", "Split Paper Bunny locations for better access overview", "Mock Disc now counts as Disc access", "Disc Shrine is now an optional blue check"]
+		},
+		{
 			"package_version": "0.9.4",
 			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.4",
 			"sha256": "7d5eb77e9f2dd26ce49a71cfbd7736e3debf6240c30cfe717160aadfa091857e",
