@@ -44,16 +44,17 @@
 		"initial_stage_idx": 0,
 		"stages": [
 			{
+				"name": "Mock Disc",
 				"img": "images/items/Mock Disc.png",
-				"codes": "mdisc",
-				"inherit_codes": true,
-				"name": "Mock Disc"
+				"codes": "mdisc, disc",
+				"inherit_codes": true
+				
 			},
 			{
 				"name": "Disc",
 				"img": "images/items/Disc.png",
-				"codes": "disc",
-				"inherit_codes": true,
+				"codes": "disc_collected",
+				"inherit_codes": true
 			}
 		]
 	},
@@ -228,5 +229,24 @@
 		"type": "toggle",
 		"img": "images/items/Mock Disc.png",
 		"codes": "mockdisc"
+	},
+	{
+		"name": "Paper Bunny",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"codes": "paperbunnyitem",
+		"stages": [
+			{
+				"img": "images/checks/Bunny_uncollected.png",
+				"codes": "paperbunnyitem_uncollected",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/checks/Bunny_collected.png",
+				"codes": "paperbunnyitem_collected",
+				"inherit_codes": true
+			}
+		]
 	}
 ]

@@ -307,17 +307,14 @@
 			{
 				"name": "Paper Bunny",
 				"access_rules": [
-					"@Barcode Bunny Spot, $has|animalflute",
-					"@F. Pack Chest, $has|officekey, $has|animalflute"
+					"@Barcode Bunny Spot, $has|animalflute"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
 				],
 				"sections": [
 					{
-						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
-						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1
+						"hosted_item": "paperbunnyitem_collected"
 					}
 				],
 				"map_locations": [
@@ -325,7 +322,23 @@
 						"map": "map",
 						"x": 768,
 						"y": 252
-					},
+					}
+				]
+			},
+			{
+				"name": "Paper Bunny",
+				"access_rules": [
+					"@F. Pack Chest, $has|officekey, $has|animalflute"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"hosted_item": "paperbunnyitem_collected"
+					}
+				],
+				"map_locations": [
 					{
 						"map": "map",
 						"x": 1032,
@@ -1939,11 +1952,11 @@
 			{
 				"name": "Disc",
 				"access_rules": [
-					"@Map Chest, $has|mdisc"
+					"{@Map Chest, $has|mdisc}"
 				],
 				"sections": [
 					{	
-						"hosted_item": "disc"
+						"hosted_item": "disc_collected"
 					}
 				],
 				"map_locations": [
