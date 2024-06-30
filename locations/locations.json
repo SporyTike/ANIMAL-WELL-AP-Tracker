@@ -52,7 +52,8 @@
 				"name": "Disc Spike Bunny",
 				"access_rules": [
 					"@Forbidden Egg Chest, $has|disc",
-					"@Forbidden Egg Chest, $bubble_long, $wheel_hop, $has|option_wheel_tricks_on"
+					"@Forbidden Egg Chest, $has|bbwand, $wheel_hop, $has|option_weird_tricks_on",
+					"@Forbidden Egg Chest, $bubble_long, $wheel_hop, $has|option_weird_tricks_on"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -188,31 +189,7 @@
 				]
 			},
 			{
-				"name": "Ghost Bunny",
-				"access_rules": [
-					"@Map Chest, @Bear Kangaroo Fountain, $has|slink",
-					"@Map Chest, @Bear Kangaroo Fountain, $has|bball, $has|option_weird_tricks_on"
-				],
-				"visibility_rules": [
-					"$hasNot|option_bunnies_as_checks_off"
-				],
-				"sections": [
-					{
-						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
-						"chest_opened_img": "images/checks/Bunny_collected.png",
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "map",
-						"x": 2068,
-						"y": 284
-					}
-				]
-			},
-			{
-				"name": "Green Bunny",
+				"name": "Illusion Bunny",
 				"access_rules": [
 					"@Map Chest, $has|animalflute"
 				],
@@ -367,6 +344,30 @@
 						"map": "map",
 						"x": 2100,
 						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Statue Bunny",
+				"access_rules": [
+					"@Map Chest, @Bear Kangaroo Fountain, $has|slink",
+					"@Map Chest, @Bear Kangaroo Fountain, $has|bball, $has|option_weird_tricks_on"
+				],
+				"visibility_rules": [
+					"$hasNot|option_bunnies_as_checks_off"
+				],
+				"sections": [
+					{
+						"chest_unopened_img": "images/checks/Bunny_uncollected.png",
+						"chest_opened_img": "images/checks/Bunny_collected.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 2068,
+						"y": 284
 					}
 				]
 			},
@@ -808,7 +809,8 @@
 			{
 				"name": "Forbidden Egg Chest",
 				"access_rules": [
-					"@Dog Fast Travel, $bubble_long",
+					"@Dog Fast Travel, $has|bbwand",
+					"@Dog Fast Travel, $bubble_long, $has|option_weird_tricks_on",
 					"@Dog Fast Travel, $has|disc",
 					"@Vanity Egg Chest, $has|top"
 				],
@@ -892,7 +894,9 @@
 			{
 				"name": "Golden Egg Chest",
 				"access_rules": [
-					"@Desert Egg Chest, $has|wheel"
+					"@Desert Egg Chest, $has|wheel, $has|slink",
+					"@Desert Egg Chest, $has|wheel, $has|top",
+					"@Desert Egg Chest, $has|wheel, $has|disc, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1642,16 +1646,18 @@
 				"access_rules": [
 					"@Map Chest, $bubble_short",
 					"@Map Chest, $disc_hop_hard",
+					"@Bear Kangaroo Fountain, $has|bwand",
+					"@Bear Kangaroo Fountain, $disc_hop",
 					"@Bear Kangaroo Fountain, $wheel_hop",
 					"@Slink Chest, $has|slink, $has|bwand",
-					"@Slink Chest, $has|slink, $has|disc_hop",
-					"@Slink Chest, $has|slink, $has|wheel_hop",
+					"@Slink Chest, $has|slink, $disc_hop",
+					"@Slink Chest, $has|slink, $wheel_hop",
 					"@Slink Chest, $has|top, $has|bwand",
-					"@Slink Chest, $has|top, $has|disc_hop",
-					"@Slink Chest, $has|top, $has|wheel_hop",
+					"@Slink Chest, $has|top, $disc_hop",
+					"@Slink Chest, $has|top, $wheel_hop",
 					"@Slink Chest, $has|bball, $has|bwand",
-					"@Slink Chest, $has|bball, $has|disc_hop",
-					"@Slink Chest, $has|bball, $has|wheel_hop"
+					"@Slink Chest, $has|bball, $disc_hop",
+					"@Slink Chest, $has|bball, $wheel_hop"
 				],
 				"sections": [
 					{
@@ -1761,7 +1767,10 @@
 				"name": "Value Egg Chest",
 				"access_rules": [
 					"@Key Chest in Upper Bear, $has|disc, $can_scare_hedgehog",
-					"@Key Chest in Upper Bear, $bubble_short, $can_scare_hedgehog"
+					"@Key Chest in Upper Bear, $bubble_short, $can_scare_hedgehog",
+					"@Key Chest in Upper Bear, $disc_hop_hard",
+					"@Key Chest in Upper Bear, $has|disc, $has|bball, $has|option_weird_tricks_on",
+					"@Key Chest in Upper Bear, $bubble_short, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1931,8 +1940,7 @@
 			{
 				"name": "B.B. Wand Chest",
 				"access_rules": [
-					"@Manticore Room, $has|slink, $has|yoyo, $has|disc",
-					"@Manticore Room, $has|slink, $has|yoyo, $has|bwand"
+					"@Manticore Room, $has|slink, $has|yoyo, $has|disc"
 				],
 				"sections": [
 					{
@@ -2714,8 +2722,7 @@
 			{
 				"name": "House Key",
 				"access_rules": [
-					"@Manticore Room, $has|slink, $has|yoyo, $has|disc",
-					"@Manticore Room, $has|slink, $has|yoyo, $has|bwand"
+					"@Manticore Room, $has|slink, $has|yoyo, $has|disc"
 				],
 				"sections": [
 					{
@@ -3117,7 +3124,8 @@
 					"@Bat Room, @Barcode Bunny Spot, $can_distract_dogs",
 					"@Barcode Bunny Spot, $bubble_short, $can_distract_dogs",
 					"@Barcode Bunny Spot, $disc_hop",
-					"@Forbidden Egg Chest, $bubble_long",
+					"@Forbidden Egg Chest, $has|bbwand",
+					"@Forbidden Egg Chest, $bubble_long, $has|option_weird_tricks_on",
 					"@Forbidden Egg Chest, $has|disc"
 				]
 			},

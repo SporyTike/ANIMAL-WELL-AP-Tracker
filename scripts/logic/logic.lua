@@ -95,6 +95,10 @@ function can_scare_hedgehog()
 		or has("firecrackers")
 end
 
+function exclude_song_chests()
+	return false
+end
+
 function not_in_logic()
 	return false
 end
