@@ -2679,7 +2679,7 @@
 					"@Map Chest, $bubble_short",
 					"@Map Chest, $can_use_keys",
 					"@Map Chest, $disc_hop_hard",
-					"@Ghost Bunny, $has|slink",
+					"@Statue Bunny, $has|slink",
 					"@Bear Kangaroo Fountain, $has|top"
 				],
 				"sections": [
