@@ -56,7 +56,7 @@ function onClear(slot_data)
                 elseif v[2] == "progressive" then
                     if v[1] == "bwand" then
                         obj.CurrentStage = 0
-                    if obj.Active then
+                    elseif obj.Active then
 						obj.CurrentStage = 0
                         obj.Active = false
 					else
