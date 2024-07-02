@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.6c",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.6c",
+			"sha256": "86df6513a2bda3e8d8bc1b1678dfb15f377d7532c57aaaa6e8b19752a69b335b",
+			"changelog": ["Fixing code error"]
+		},
+		{
 			"package_version": "0.9.6b",
 			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.6b",
 			"sha256": "04036cf840dfa22df414878d783a4037b26d3b676331b95b88190ab359c0ed60",
