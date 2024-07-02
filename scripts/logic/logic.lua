@@ -39,7 +39,7 @@ function can_break_spikes_below()
 		or has("wheel")
 end
 
-function taking_damage()
+function tanking_damage()
 	return true
 end
 

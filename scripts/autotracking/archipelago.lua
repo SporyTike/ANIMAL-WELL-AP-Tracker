@@ -54,6 +54,8 @@ function onClear(slot_data)
                 if v[2] == "toggle" then
                     obj.Active = false
                 elseif v[2] == "progressive" then
+                    if v[1] == "bwand" then
+                        obj.CurrentStage = 0
                     if obj.Active then
 						obj.CurrentStage = 0
                         obj.Active = false
@@ -141,7 +143,9 @@ function onLocation(location_id, location_name)
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
-        if v[1]:sub(1, 1) == "@" then
+        if (location_id - BASE_OFFSET) == 119 then
+            Tracker:FindObjectForCode("paperbunnyitem").CurrentStage = 1
+        elseif v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
         else
             obj.Active = true
