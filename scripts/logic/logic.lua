@@ -40,7 +40,7 @@ function can_break_spikes_below()
 end
 
 function tanking_damage()
-	return true
+	return has("option_weird_tricks_on")
 end
 
 function eggs_required(v)

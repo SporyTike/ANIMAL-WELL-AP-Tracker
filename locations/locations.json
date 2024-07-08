@@ -2842,7 +2842,9 @@
 				"name": "Match in Center Well Chest",
 				"access_rules": [
 					"@Match by Dog Fish Pipe Chest, $has|slink",
-					"@Match by Dog Fish Pipe Chest, $has|bball, $has|option_weird_tricks_on"
+					"@Match by Dog Fish Pipe Chest, $has|bball, $has|option_weird_tricks_on",
+					"@P. Flame",
+					"@fast_travel_fake"
 				],
 				"sections": [
 					{
