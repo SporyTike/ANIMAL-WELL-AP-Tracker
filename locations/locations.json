@@ -606,7 +606,8 @@
 					"@Match in Bear Area, $has|bwand",
 					"@Match in Center Well Chest, $has|remote, $bubble_short",
 					"@Match in Center Well Chest, $has|remote, $has|disc",
-					"$fast_travel_fake, $has|bwand"
+					"@Top of Well, $has|bwand",
+					"@Top of Well, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -1238,7 +1239,7 @@
 			{
 				"name": "Pickled Egg Chest",
 				"access_rules": [
-					"$fast_travel_fake"
+					"@Top of Well"
 				],
 				"sections": [
 					{
@@ -2013,11 +2014,7 @@
 				"name": "F. Pack Chest",
 				"access_rules": [
 					"@B.B. Wand Chest, $has|housekey",
-					"$fast_travel_fake, $has|lantern",
-					"@Match in Center Well Chest, $bubble_long",
-					"@Match in Center Well Chest, $wheel_tricks_hard",
-					"@Chocolate Egg Chest, $bubble_long",
-					"@Chocolate Egg Chest, $wheel_tricks_hard"
+					"@Top of Well, $has|lantern"
 				],
 				"sections": [
 					{
@@ -2845,8 +2842,12 @@
 					"@Chaos Egg Chest, $has|disc, $tanking_damage",
 					"@Chaos Egg Chest, $has|bwand, $tanking_damage",
 					"@Chaos Egg Chest, $wheel_hop, $tanking_damage",
-					"$fast_travel_fake, $has|bubble",
-					"$fast_travel_fake, $wheel_tricks_hard"
+					"@Top of Well, $has|bubble",
+					"@Top of Well, $wheel_tricks_hard",
+					"@Match in Center Well Chest, $bubble_long",
+					"@Match in Center Well Chest, $wheel_tricks_hard",
+					"@Chocolate Egg Chest, $bubble_long",
+					"@Chocolate Egg Chest, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -2868,8 +2869,8 @@
 				"access_rules": [
 					"@Match by Dog Fish Pipe Chest, $has|slink",
 					"@Match by Dog Fish Pipe Chest, $has|bball, $has|option_weird_tricks_on",
-					"@P. Flame",
-					"$fast_travel_fake"
+					"@Top of Well",
+					"@Match in Bear Area"
 				],
 				"sections": [
 					{
@@ -3198,6 +3199,17 @@
 					"@Well Entry, $has|lantern, $has|bball, $has|bwand, $has|option_weird_tricks_on",
 					"@Well Entry, $has|lantern, $has|bball, $wheel_hop, $has|yoyo",
 					"@Well Entry, $has|lantern, $has|bball, $has|bubble, $has|yoyo"
+				]
+			},
+			{
+				"name": "Top of Well",
+				"access_rules": [
+					"$fast_travel_fake",
+					"@F. Pack Chest",
+					"@Match in Center Well Chest, $bubble_long",
+					"@Match in Center Well Chest, $wheel_tricks_hard",
+					"@Chocolate Egg Chest, $bubble_long",
+					"@Chocolate Egg Chest, $wheel_tricks_hard"
 				]
 			},
 			{
