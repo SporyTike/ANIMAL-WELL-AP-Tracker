@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.7",
+			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.7",
+			"sha256": "09130bdf44eb483585e590614af0019b6f2da2596a484f01089df69c01bbbb6d",
+			"changelog": ["Adding more Wheel logic, Fixing Chocolate Egg Chest and Center Well Match Chest logic"]
+		},
+		{
 			"package_version": "0.9.6c",
 			"download_url": "https://codeload.github.com/SporyTike/ANIMAL-WELL-AP-Tracker/zip/refs/tags/v0.9.6c",
 			"sha256": "86df6513a2bda3e8d8bc1b1678dfb15f377d7532c57aaaa6e8b19752a69b335b",
