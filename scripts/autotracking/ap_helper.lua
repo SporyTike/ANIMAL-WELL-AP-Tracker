@@ -35,8 +35,8 @@ SLOT_CODES = {
 		mapping=MAP_TOGGLE
 	},
 	wheel_hopping={
-		code="option_wheel_hopping", 
-		mapping=MAP_TOGGLE
+		code="option_wheel_tricks", 
+		mapping=MAP_TRIPLE
 	},
 	-- eggs_needed={
 		-- code="option_eggs_needed", 

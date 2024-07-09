@@ -91,7 +91,7 @@
 				"inherit_codes": false
 			},
 			{
-				"name": "Disc Hopping - On",
+				"name": "Disc Hopping - Multiple",
 				"img": "images/settings/Disc Hopping Long.png",
 				"codes": "option_disc_hopping_on",
 				"inherit_codes": false
@@ -103,19 +103,25 @@
 		"type": "progressive",
 		"loop": true,
 		"allow_disabled": false,
-		"codes": "option_wheel_hopping",
+		"codes": "option_wheel_tricks",
 		"stages": [
 			{
 				"name": "Wheel Hopping - Off",
-				"img": "/images/settings/Wheel Hopping.png",
+				"img": "/images/settings/Wheel Tricks.png",
 				"img_mods": "@disabled",
-				"codes": "option_wheel_hopping_off",
+				"codes": "option_wheel_tricks_off",
 				"inherit_codes": false
 			},
 			{
-				"name": "Wheel Hopping - On",
-				"img": "/images/settings/Wheel Hopping.png",
-				"codes": "option_wheel_hopping_on",
+				"name": "Wheel Hopping - Simpel",
+				"img": "/images/settings/Wheel Tricks.png",
+				"codes": "option_wheel_tricks_simple",
+				"inherit_codes": false
+			},
+			{
+				"name": "Wheel Hopping - Advanced",
+				"img": "/images/settings/Wheel Tricks Hard.png",
+				"codes": "option_wheel_tricks_advanced",
 				"inherit_codes": false
 			}
 		]

@@ -473,7 +473,8 @@
 				"access_rules": [
 					"@Normal Egg Chest, $bubble_short",
 					"@Normal Egg Chest, $disc_hop_hard",
-					"@Normal Egg Chest, $has|bwand, $has|disc"
+					"@Normal Egg Chest, $has|bwand, $has|disc",
+					"@Normal Egg Chest, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -667,7 +668,8 @@
 				"name": "Dazzle Egg Chest",
 				"access_rules": [
 					"@Normal Egg Chest, $has|bwand",
-					"@Normal Egg Chest, $has|disc, $has|wheel"
+					"@Normal Egg Chest, $has|disc, $has|wheel",
+					"@Normal Egg Chest, $wheel_climb"
 				],
 				"sections": [
 					{
@@ -980,7 +982,8 @@
 				"name": "Holiday Egg Chest",
 				"access_rules": [
 					"@Map Chest, $has|bwand",
-					"@Map Chest, $disc_hop"
+					"@Map Chest, $disc_hop",
+					"@Map Chest, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -1001,7 +1004,9 @@
 				"name": "Ice Egg Chest",
 				"access_rules": [
 					"@S Medal Door, $has|remote",
-					"@S Medal Door, $bubble_long"
+					"@S Medal Door, $bubble_long",
+					"@S Medal Door, $disc_hop",
+					"@S Medal Door, $wheel_climb"
 				],
 				"sections": [
 					{
@@ -1405,7 +1410,8 @@
 					"@Map Chest, $has|remote, $has|firecrackers",
 					"@Map Chest, $has|bball, $has|firecrackers",
 					"@Map Chest, $has|top, $has|firecrackers, $has|option_weird_tricks_on",
-					"@Map Chest, $has|disc"
+					"@Map Chest, $has|disc",
+					"@Map Chest, $wheel_hop, $has|firecrackers"
 				],
 				"sections": [
 					{
@@ -1624,7 +1630,8 @@
 				"access_rules": [
 					"@Jade Egg Chest, $has|bubble",
 					"@Map Chest, $bubble_short",
-					"@Map Chest, $has|disc"
+					"@Map Chest, $has|disc",
+					"@Map Chest, $wheel_climb"
 				],
 				"sections": [
 					{
@@ -1649,6 +1656,7 @@
 					"@Bear Kangaroo Fountain, $has|bwand",
 					"@Bear Kangaroo Fountain, $disc_hop",
 					"@Bear Kangaroo Fountain, $wheel_hop",
+					"@Bear Kangaroo Fountain, $wheel_climb",
 					"@Slink Chest, $has|slink, $has|bwand",
 					"@Slink Chest, $has|slink, $disc_hop",
 					"@Slink Chest, $has|slink, $wheel_hop",
@@ -1699,7 +1707,10 @@
 				"name": "Truth Egg Chest",
 				"access_rules": [
 					"@Bear Kangaroo Fountain, $has|disc",
-					"@Map Chest, $disc_hop_hard"
+					"@Map Chest, $disc_hop_hard",
+					"@Match in Center Well Chest, $has|bwand, $has|option_weird_tricks_on",
+					"@Match in Center Well Chest, $wheel_tricks_hard",
+					"@Map Chest, $has|bbwand, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1770,7 +1781,9 @@
 					"@Key Chest in Upper Bear, $bubble_short, $can_scare_hedgehog",
 					"@Key Chest in Upper Bear, $disc_hop_hard",
 					"@Key Chest in Upper Bear, $has|disc, $has|bball, $has|option_weird_tricks_on",
-					"@Key Chest in Upper Bear, $bubble_short, $has|bball, $has|option_weird_tricks_on"
+					"@Key Chest in Upper Bear, $bubble_short, $has|bball, $has|option_weird_tricks_on",
+					"@Key Chest in Upper Bear, $wheel_hop, $can_scare_hedgehog",
+					"@Key Chest in Upper Bear, $wheel_hop, $has|bball, $has|option_weird_tricks_on"
 				],
 				"sections": [
 					{
@@ -1834,6 +1847,7 @@
 					"@Key Chest in Upper Bear, $has|bwand",
 					"@Key Chest in Upper Bear, $has|disc",
 					"@Key Chest in Upper Bear, $wheel_hop",
+					"@Key Chest in Upper Bear, $wheel_climb",
 					"@Bear Kangaroo Fountain, $has|top"
 				],
 				"sections": [
@@ -1999,7 +2013,11 @@
 				"name": "F. Pack Chest",
 				"access_rules": [
 					"@B.B. Wand Chest, $has|housekey",
-					"$fast_travel_fake, $has|lantern"
+					"$fast_travel_fake, $has|lantern",
+					"@Match in Center Well Chest, $bubble_long",
+					"@Match in Center Well Chest, $wheel_tricks_hard",
+					"@Chocolate Egg Chest, $bubble_long",
+					"@Chocolate Egg Chest, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -2155,6 +2173,7 @@
 					"@Key Chest in Upper Bear, $has|bball, $has|option_weird_tricks_on",
 					"@Razzle Egg Chest",
 					"@Bear Kangaroo Fountain, $wheel_hop",
+					"@Bear Kangaroo Fountain, $wheel_climb",
 					"@Bear Kangaroo Fountain, $has|bwand"
 				],
 				"sections": [
@@ -2343,7 +2362,10 @@
 				"name": "V. Flame",
 				"access_rules": [
 					"@Swan Egg Chest, $has|yoyo, $has|slink",
-					"@Swan Egg Chest, $has|bball, $has|option_weird_tricks_on"
+					"@Swan Egg Chest, $has|bball, $has|option_weird_tricks_on",
+					"@Chaos Egg Chest, $wheel_tricks_hard, $tanking_damage",
+					"@Chaos Egg Chest, $disc_hop_hard, $tanking_damage",
+					"@Chaos Egg Chest, $bubble_long, $tanking_damage"
 				],
 				"sections": [
 					{
@@ -2679,6 +2701,7 @@
 					"@Map Chest, $bubble_short",
 					"@Map Chest, $can_use_keys",
 					"@Map Chest, $disc_hop_hard",
+					"@Map Chest, $wheel_climb",
 					"@Statue Bunny, $has|slink",
 					"@Bear Kangaroo Fountain, $has|top"
 				],
@@ -2773,7 +2796,8 @@
 					"@Map Chest, $has|yoyo",
 					"@Map Chest, $has|bball, $has|option_weird_tricks_on",
 					"@Map Chest, $has|top, $has|option_weird_tricks_on",
-					"@Map Chest, $bubble_short"
+					"@Map Chest, $bubble_short",
+					"@Map Chest, $wheel_climb"
 				],
 				"sections": [
 					{
@@ -2821,7 +2845,8 @@
 					"@Chaos Egg Chest, $has|disc, $tanking_damage",
 					"@Chaos Egg Chest, $has|bwand, $tanking_damage",
 					"@Chaos Egg Chest, $wheel_hop, $tanking_damage",
-					"$fast_travel_fake, $has|bubble"
+					"$fast_travel_fake, $has|bubble",
+					"$fast_travel_fake, $wheel_tricks_hard"
 				],
 				"sections": [
 					{
@@ -3117,15 +3142,17 @@
 				"access_rules": [
 					"@Dog Fast Travel, $has|slink",
 					"@Dog Fast Travel, $bubble_short",
-					"@Dog Fast Travel, $has|disc"
+					"@Dog Fast Travel, $has|disc",
+					"@Dog Fast Travel, $wheel_hop"
 				]
 			},
 			{
 				"name": "Dog Fast Travel",
 				"access_rules": [
-					"@Bat Room, @Barcode Bunny Spot, $can_distract_dogs",
+					"@Barcode Bunny Spot, @Bat Room, $can_distract_dogs",
 					"@Barcode Bunny Spot, $bubble_short, $can_distract_dogs",
 					"@Barcode Bunny Spot, $disc_hop",
+					"@Barcode Bunny Spot, $wheel_climb",
 					"@Forbidden Egg Chest, $has|bbwand",
 					"@Forbidden Egg Chest, $bubble_long, $has|option_weird_tricks_on",
 					"@Forbidden Egg Chest, $has|disc"
@@ -3145,6 +3172,8 @@
 				"access_rules": [
 					"@Normal Egg Chest, $has|bwand, $has|disc",
 					"@Normal Egg Chest, $has|bwand, $has|remote",
+					"@Normal Egg Chest, $has|remote, $wheel_tricks_hard",
+					"@Normal Egg Chest, $has|disc, $wheel_tricks_hard",
 					"@Wheel Chest, $has|top"
 				]
 			},

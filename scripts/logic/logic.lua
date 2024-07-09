@@ -77,9 +77,24 @@ function disc_hop_hard()
 		and has("option_disc_hopping_on")
 end
 
-function wheel_hop()
+function wheel_tricks()
 	return has("wheel")
-		and has("option_wheel_hopping_on")
+		and hasNot("option_wheel_tricks_off")
+end
+
+function wheel_hop()
+	return wheel_tricks()
+		or wheel_tricks_hard()
+end
+
+function wheel_climb()
+	return wheel_tricks()
+		or wheel_tricks_hard()
+end
+
+function wheel_tricks_hard()
+	return has("wheel")
+		and has("option_wheel_tricks_advanced")
 end
 
 function fast_travel_fake()
