@@ -113,7 +113,7 @@
 				"inherit_codes": false
 			},
 			{
-				"name": "Wheel Hopping - Simpel",
+				"name": "Wheel Hopping - Simple",
 				"img": "/images/settings/Wheel Tricks.png",
 				"codes": "option_wheel_tricks_simple",
 				"inherit_codes": false
@@ -219,4 +219,26 @@
 			}
 		]
 	},
+	{
+		"name": "Bunny Warps in Logic",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "option_bunny_warps_in_logic",
+		"stages": [
+			{
+				"name": "Bunny Warps in Logic - Off",
+				"img": "/images/items/Animal Flute.png",
+				"img_mods": "@disabled",
+				"codes": "option_bunny_warps_in_logic_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Bunny Warps in Logic - On",
+				"img": "/images/items/Animal Flute.png",
+				"codes": "option_bunny_warps_in_logic_on",
+				"inherit_codes": false
+			}
+		]
+	}
 ]
