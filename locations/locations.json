@@ -28,7 +28,7 @@
 			{
 				"name": "Chinchilla Bunny",
 				"access_rules": [
-					"$has|animalflute"
+					"$bunny_warp"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -76,7 +76,7 @@
 			{
 				"name": "Doodle Bunny",
 				"access_rules": [
-					"$has|animalflute"
+					"$bunny_warp"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"
@@ -168,7 +168,7 @@
 			{
 				"name": "Flowering Bunny",
 				"access_rules": [
-					"$has|animalflute"
+					"$bunny_warp"
 				],
 				"visibility_rules": [
 					"$hasNot|option_bunnies_as_checks_off"

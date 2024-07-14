@@ -103,6 +103,7 @@ end
 
 function bunny_warp()
 	return has("animalflute")
+		and has("option_bunny_warps_in_logic_on")
 end
 
 function can_scare_hedgehog()

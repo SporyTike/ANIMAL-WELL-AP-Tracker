@@ -27,7 +27,7 @@ SLOT_CODES = {
 		mapping=MAP_TOGGLE
 	},
 	bubble_jumping={
-		code="option_bubble_jumping", 
+		code="option_bubble_jumping",
 		mapping=MAP_TRIPLE
 	},
 	candle_checks={
@@ -37,6 +37,10 @@ SLOT_CODES = {
 	wheel_hopping={
 		code="option_wheel_tricks", 
 		mapping=MAP_TRIPLE
+	},
+	bunny_warps_in_logic={
+		code="option_bunny_warps_in_logic",
+		mapping=MAP_TOGGLE
 	},
 	-- eggs_needed={
 		-- code="option_eggs_needed", 
