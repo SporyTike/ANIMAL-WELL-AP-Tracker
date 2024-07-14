@@ -670,7 +670,8 @@
 				"access_rules": [
 					"@Normal Egg Chest, $has|bwand",
 					"@Normal Egg Chest, $has|disc, $has|wheel",
-					"@Normal Egg Chest, $wheel_climb"
+					"@Normal Egg Chest, $wheel_climb",
+					"@Normal Egg Chest, $disc_hop"
 				],
 				"sections": [
 					{
@@ -2169,9 +2170,7 @@
 					"@Key Chest in Upper Bear, $bubble_short, $has|option_weird_tricks_on",
 					"@Key Chest in Upper Bear, $has|bball, $has|option_weird_tricks_on",
 					"@Razzle Egg Chest",
-					"@Bear Kangaroo Fountain, $wheel_hop",
-					"@Bear Kangaroo Fountain, $wheel_climb",
-					"@Bear Kangaroo Fountain, $has|bwand"
+					"@Bear Kangaroo Fountain"
 				],
 				"sections": [
 					{
